@@ -106,8 +106,9 @@
 }
 
 .credit {
-  background: yellow;
+  backdrop-filter: blur(12px);
   padding: 32px;
   position: relative;
   z-index: 99;
+  color: white;
 }
