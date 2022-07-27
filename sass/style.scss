@@ -50,6 +50,11 @@
       color: white;
       position: relative;
       z-index: 4;
+      @media screen and (max-width: 766px) {
+        font-size: 14px;
+        height: 150px;
+        overflow: hidden;
+      }
     }
   }
 }
