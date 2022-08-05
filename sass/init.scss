@@ -231,7 +231,8 @@ main {
   right: 0;
   z-index: 999999;
   // filter: blur(8px);
-  background: rgba($color: #000000, $alpha: 1);
+  // background: rgba($color: #000000, $alpha: 1);
+  backdrop-filter: blur(8px);
   .waiting {
     position: absolute;
     transform: translate(-50%, -50%);
