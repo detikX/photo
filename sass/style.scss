@@ -133,9 +133,17 @@
   height: 100vh;
   position: relative;
   z-index: 99;
+  .padding {
+    padding: 8px;
+    // border: 3px solid white;
+  }
   .kotak {
     position: absolute;
     left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    // backdrop-filter: blur(12px);
   }
   h2 {
     // border: 1px solid;
@@ -143,7 +151,7 @@
   }
   .jobdesc {
     color: #ececec;
-    margin-top: 8px;
+    margin-top: 16px;
     font-size: 14px;
   }
   .naming {
@@ -184,7 +192,7 @@
   width: 90px;
   @media screen and (max-width: 766px) {
     top: 12px;
-    left: 45%;
+    left: 35%;
     width: 80px;
   }
 }
@@ -201,5 +209,22 @@
   }
   @media screen and (max-width: 766px) {
     width: auto;
+  }
+}
+
+.info_ {
+  display: none;
+  @media screen and (max-width: 766px) {
+    position: absolute;
+    display: block;
+    bottom: 34px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: #fff;
+    z-index: 999;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 4px 0;
   }
 }
