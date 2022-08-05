@@ -205,6 +205,13 @@
   }
 }
 
+#nav {
+  display: none;
+}
+
+.footer {
+  z-index: 999;
+}
 .logo-detik-footer {
   width: 150px;
   height: auto;
@@ -225,14 +232,14 @@
   // @media screen and (max-width: 766px) {
   position: absolute;
   display: block;
-  bottom: 16px;
+  bottom: 52px;
   left: 16px;
   // right: 0;
   width: 100%;
   color: #fff;
   z-index: 999;
   @media screen and (max-width: 766px) {
-    bottom: 16px;
+    // bottom: 16px;
   }
   // text-align: center;
   h2 {
@@ -240,7 +247,7 @@
     font-size: 36px;
     text-shadow: 2px 2px black;
     @media screen and (max-width: 766px) {
-      font-size: 24px;
+      font-size: 26px;
     }
   }
   // background: rgba(0, 0, 0, 0.6);
@@ -267,5 +274,24 @@
   margin-left: 16px;
   @media screen and (max-width: 766px) {
     margin-left: 0;
+  }
+}
+
+.creator {
+  position: absolute;
+  left: 16px;
+  width: auto;
+  color: #fff;
+  bottom: 240px;
+  font-weight: bold;
+  background: rgba($color: #000000, $alpha: 0.3);
+  padding: 8px;
+  text-shadow: 2px 2px #000;
+  z-index: 999;
+  @media screen and (max-width: 766px) {
+    bottom: 120px;
+    // width: 255px;
+    left: 8px;
+    font-size: 14px;
   }
 }
