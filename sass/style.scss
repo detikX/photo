@@ -229,9 +229,13 @@
   width: 100%;
   color: #fff;
   z-index: 999;
+  @media screen and (max-width: 766px) {
+    bottom: 16px;
+  }
   // text-align: center;
-  h1 {
+  h2 {
     font-weight: bold;
+    font-size: 36px;
     text-shadow: 2px 2px black;
     @media screen and (max-width: 766px) {
       font-size: 28px;
@@ -240,4 +244,18 @@
   // background: rgba(0, 0, 0, 0.6);
   // padding: 4px 0;
   // }
+}
+
+.isdesktop {
+  display: block;
+  @media screen and (max-width: 766px) {
+    display: none;
+  }
+}
+
+.ismobile {
+  display: none;
+  @media screen and (max-width: 766px) {
+    display: block;
+  }
 }
