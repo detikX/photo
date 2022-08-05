@@ -262,4 +262,8 @@
 
 .order {
   order: -1;
+  margin-left: 16px;
+  @media screen and (max-width: 766px) {
+    margin-left: 0;
+  }
 }
