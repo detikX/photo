@@ -186,40 +186,46 @@ main {
 //slick
 .slick-next,
 .slick-prev {
-  background: white;
+  // background: white;
   width: 30px;
   height: 30px;
-  box-shadow: 1px 3px 2px #bbb;
+  // box-shadow: 1px 3px 2px #bbb;
   border-radius: 50%;
   &:hover,
   &:focus {
     color: orange;
     outline: none;
-    background: white;
+    // background: white;
   }
 }
 .slick-next:before,
 .slick-prev:before {
   font-family: "FontAwesome";
-  font-size: 20px;
-  text-align: center;
-  color: #f7941f;
-  opacity: 1;
+    font-size: 45px;
+    text-align: center;
+    color: #f7941f;
+    opacity: 1;
 }
 .slick-next {
   &:before {
     content: "\f054";
   }
+  left: initial;
   right: 20px;
-  text-align: center;
+  z-index: 1;
+  top: initial;
+  bottom: 50px;
 }
 
 .slick-prev {
   &::before {
     content: "\f053";
   }
-  left: 20px;
+  right: 100px;
+  left: initial;
   z-index: 1;
+  top: initial;
+  bottom: 50px;
 }
 
 .preloader {
