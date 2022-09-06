@@ -51,9 +51,9 @@
       color: white;
       position: relative;
       z-index: 4;
-      font-size: 18px;
+      font-size: 15px;
       @media screen and (min-width:1440px) {
-        font-size: 21px;
+        font-size: 20px;
       }
       @media screen and (max-width: 766px) {
         font-size: 14px;
@@ -80,7 +80,7 @@
     font-size: 20px;
   }
   @media screen and (max-width:766px) {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 .section-img {
@@ -188,7 +188,18 @@
     height: 28px;
     border-radius: 50%;
     cursor: pointer;
+    font-size: 18px;
+    // padding: 3px;
     transition: .3s;
+    i {
+      // padding: 4px;
+      // font-size: 18px;
+      @media screen and (max-width:766px) {
+      }
+      @media screen and (min-width:1440px) {
+        font-size: 22px;
+      }
+    }
     &:hover {
       background: #ccc;
     }
@@ -234,13 +245,20 @@
       color: #fff;
       // background: rgba($color: #000000, $alpha: .6);
       backdrop-filter: blur(8px);
-      width: fit-content;
+      max-width: 320px;
+      text-shadow: 2px 2px black;
       padding: 8px;
-      font-size: 18px;
+      font-size: 15px;
       text-align: right;
       bottom: 74px;
       @media screen and (max-width:766px) {
         bottom: 74px;
+        width: fit-content;
+        
+      }
+      @media screen and (min-width:1440px) {
+        bottom: 116px;
+        font-size: 20px;
       }
       &.leftx{
         text-align: left;

@@ -201,10 +201,13 @@ main {
 .slick-next:before,
 .slick-prev:before {
   font-family: "FontAwesome";
-    font-size: 45px;
+    font-size: 28px;
     text-align: center;
     color: #fff;
     opacity: 1;
+    @media screen and (min-width:1440px) {
+      font-size: 45px;
+    }
     @media screen and (max-width:766px) {
       font-size: 24px;
     }
