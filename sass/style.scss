@@ -105,6 +105,12 @@
     max-width: 100%;
     padding: 32px;
     display: block;
+    p {
+      font-size: 18px;
+      @media screen and (max-width:766px) {
+        font-size: 15px;
+      }
+    }
     @media screen and (max-width:766px) {
       width: 100%;
       right: initial !important;
