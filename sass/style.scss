@@ -238,6 +238,10 @@
       padding: 8px;
       font-size: 18px;
       text-align: right;
+      bottom: 74px;
+      @media screen and (max-width:766px) {
+        bottom: 74px;
+      }
       &.leftx{
         text-align: left;
         right: initial;

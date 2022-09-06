@@ -203,8 +203,11 @@ main {
   font-family: "FontAwesome";
     font-size: 45px;
     text-align: center;
-    color: #f7941f;
+    color: #fff;
     opacity: 1;
+    @media screen and (max-width:766px) {
+      font-size: 24px;
+    }
 }
 .slick-next {
   &:before {
