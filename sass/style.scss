@@ -63,6 +63,7 @@
 .information {
   position: absolute;
   bottom: 10%;
+  padding: 8px 0;
   left: 50%;
   transform: translate(-50%,50%);
   color: white;
@@ -157,6 +158,22 @@
   @media screen and (max-width: 766px) {
     width: 50% !important;
   }
+}
+
+.close-info {
+  position: absolute;
+    top: -16px;
+    right: -8px;
+    background: white;
+    color: black;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+    &:hover {
+      background: #ccc;
+    }
 }
 .slick-dotted.slick-slider {
   margin-bottom: 0;

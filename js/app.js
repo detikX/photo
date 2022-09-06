@@ -30,3 +30,7 @@ $(window).on("load", function () {
       fade: true,
       cssEase: 'linear'
     });
+
+    $(".close-info").click(()=>{
+      $(".information").fadeOut()
+    })
