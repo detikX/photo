@@ -51,7 +51,10 @@
       color: white;
       position: relative;
       z-index: 4;
-      font-size: 20px;
+      font-size: 18px;
+      @media screen and (min-width:1440px) {
+        font-size: 21px;
+      }
       @media screen and (max-width: 766px) {
         font-size: 14px;
         height: auto;
@@ -71,7 +74,14 @@
   font-size: 19px;
   width: 320px;
   text-align: center;
+  font-size: 16px;
   background: rgba(0,0,0,.8);
+  @media screen and (min-width:1440px) {
+    font-size: 20px;
+  }
+  @media screen and (max-width:766px) {
+    font-size: 12px;
+  }
 }
 .section-img {
   position: relative;
@@ -79,10 +89,18 @@
 }
 .helpx {
   width: 100% !important;
+  @media screen and (max-width:766px) {
+    right: initial !important;
+  }
   .section-text {
     margin: 0 auto;
     text-align: center;
     width: 860px;
+    @media screen and (max-width:766px) {
+      width: 100%;
+      right: initial !important;
+      // background: red;
+    }
   }
 }
 .section-img-inner {
@@ -156,7 +174,7 @@
   }
 
   @media screen and (max-width: 766px) {
-    width: 50% !important;
+    width: 50% ;
   }
 }
 
@@ -295,7 +313,7 @@
 }
 
 .logo-detik {
-  position: absolute;
+  position: fixed;
   left: 12px;
   top: 12px;
   z-index: 999;
@@ -347,6 +365,9 @@
   width: fit-content;
   @media screen and (max-width: 766px) {
     // bottom: 16px;
+    width: 100%;
+    margin-bottom: 12px;
+    // border: 1px solid;
   }
   // text-align: center;
   h2 {
@@ -354,7 +375,8 @@
     font-size: 45px;
     text-shadow: 2px 2px black;
     @media screen and (max-width: 766px) {
-      font-size: 26px;
+      font-size: 36px;
+      text-align: center;
     }
   }
   // background: rgba(0, 0, 0, 0.6);
@@ -425,9 +447,9 @@
     font-size: 18px;
   }
   @media screen and (max-width: 766px) {
-    bottom: 120px;
+    // bottom: 120px;
     // width: 255px;
-    left: 8px;
+    // left: 8px;
     font-size: 14px;
   }
 }

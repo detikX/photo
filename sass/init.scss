@@ -214,7 +214,10 @@ main {
   right: 20px;
   z-index: 1;
   top: initial;
-  bottom: 50px;
+  bottom: 12px;
+  @media screen and (min-width:1440px) {
+    bottom: 50px;
+  }
 }
 
 .slick-prev {
@@ -225,7 +228,10 @@ main {
   left: initial;
   z-index: 1;
   top: initial;
-  bottom: 50px;
+  bottom: 12px;
+  @media screen and (min-width:1440px) {
+    bottom: 50px;
+  }
 }
 
 .preloader {
