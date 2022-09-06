@@ -280,6 +280,7 @@
   height: 100vh;
   position: relative;
   z-index: 101;
+  
   .detikx {
     width: 120px !important;
   }
@@ -305,13 +306,13 @@
     padding: 8px;
   }
   .jobdesc {
-    color: #ececec;
+    color: #333;
     margin-top: 16px;
     font-size: 14px;
   }
   .naming {
     font-size: 16px;
-    color: white;
+    color: #000;
     font-weight: bold;
   }
   &:after {
@@ -322,7 +323,7 @@
     top: 0;
     content: "";
     z-index: 1;
-    background: rgba($color: #000000, $alpha: 0.5);
+    background: rgba($color: #fff, $alpha: 0.1);
   }
   h2 {
     font-weight: 700;
