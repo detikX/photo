@@ -97,8 +97,8 @@
   .section-text {
     margin: 0 auto;
     text-align: center;
-    width: 100%;
-    padding: 0 32px;
+    width: 75%;
+    padding: 32px;
     display: block;
     @media screen and (max-width:766px) {
       width: 100%;
@@ -125,7 +125,7 @@
   background-image: url("../img/1.webp");
 }
 .section-img-inner.samp2 {
-  background-image: url("../img/15.jpg");
+  background-image: url("../img/15.webp");
   background-position: 50% 15% !important;
 }
 .section-img-inner.samp3 {
