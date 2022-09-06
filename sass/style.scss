@@ -562,3 +562,38 @@
     }
   }
 }
+
+
+.alls {
+  display: none;
+  @media screen and (max-width:739px) {
+    display: block;
+  }
+  &__text {
+    position: absolute;
+    left: 50%;
+    top: 54px;
+    color: #fff;
+    font-size: 12px;
+    transform: translate(-50%,50%);
+    text-align: center;
+  }
+}
+.phones {
+  position: absolute;
+  left: 50%;
+  color: white;
+  top: 32px;
+  animation: rotate 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes rotate {
+  0% { -webkit-transform: rotate(0deg); }
+  20% { -webkit-transform: rotate(30deg); }
+  25% { -webkit-transform: rotate(40deg); }
+  45% { -webkit-transform: rotate(90deg); }
+  50% { -webkit-transform: rotate(90deg); }
+  70% { -webkit-transform: rotate(70deg); }
+  75% { -webkit-transform: rotate(30deg); }
+  100% { -webkit-transform: rotate(0deg); }
+}
