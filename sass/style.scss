@@ -101,7 +101,7 @@
   .section-text {
     margin: 0 auto;
     text-align: center;
-    width: 75%;
+    width: 50%;
     max-width: 100%;
     padding: 32px;
     display: block;
@@ -110,7 +110,7 @@
     }
     p {
       font-size: 18px;
-      margin-bottom: 10px;
+      margin-bottom: 16px;
       @media screen and (max-width:766px) {
         font-size: 15px;
       }
