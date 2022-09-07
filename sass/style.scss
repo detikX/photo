@@ -66,6 +66,36 @@
     }
   }
 }
+.countings {
+  position: absolute;
+  bottom: 25px;
+  // color: red;
+  z-index: 80;
+  color: white;
+  transform: translate(-50%, 0%);
+    left: 50%;
+  font-size: 14px;
+  @media screen and (min-width:1440px) {
+    right: 180px;
+    position: absolute;
+    bottom: 57px;
+    z-index: 80;
+    color: #fff;
+    transform:initial;
+    left: initial;
+    font-size: 22px;
+  }
+  @media screen and (max-width:766px) {
+    position: absolute;
+    bottom: 25px;
+    color: white;
+    right: initial;
+    z-index: 80;
+    font-size: 14px;
+    transform: translate(-50%, 0%);
+    left: 50%;
+  }
+}
 .information {
   position: absolute;
   bottom: 10%;
