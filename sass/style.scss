@@ -105,6 +105,9 @@
     max-width: 100%;
     padding: 32px;
     display: block;
+    @media screen and (min-width:1440px) {
+      width: 50%;
+    }
     p {
       font-size: 18px;
       margin-bottom: 10px;
