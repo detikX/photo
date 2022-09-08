@@ -104,16 +104,15 @@
   transform: translate(-50%,50%);
   color: white;
   z-index: 99;
-  font-size: 19px;
+  font-size: 12px;
   width: 320px;
   text-align: center;
-  font-size: 16px;
   background: rgba(0,0,0,.8);
   @media screen and (min-width:1440px) {
-    font-size: 20px;
+    font-size: 16px;
   }
   @media screen and (max-width:766px) {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 .section-img {
