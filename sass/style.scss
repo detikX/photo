@@ -126,6 +126,9 @@
   transform: translate(-50%,-50%);
   left: 50%;
   top: 50%;
+  p {
+    color: #000;
+  }
   a {
     color: rgb(196, 100, 36);
     font-weight: bold;
@@ -176,10 +179,10 @@
   transition: 0.6s ease, opacity 0.6s ease, background-position 0.8s ease;
 }
 .section-img-inner.samp1 {
-  background-image: url("../img/1.webp");
+  background-image: url("../img/cover.webp");
 }
 .section-img-inner.samp2 {
-  background-image: url("../img/15.webp");
+  background-image: url("../img/1.webp");
   background-position: 50% 15% !important;
 }
 .section-img-inner.samp3 {
@@ -187,13 +190,14 @@
   background-position: 50% 0 !important;
 }
 .section-img-inner.samp33 {
-  background: #000;
+  // background: #85ff9f;
+  background: #fafafa;
   // background-image: url("../img/1.jpeg");
   // filter: blur(24px) !important;
   background-position: 50% 0 !important;
 }
 .section-img-inner.samp4 {
-  background-image: url("../img/3.jpeg");
+  background-image: url("../img/3.webp");
   background-position: 50% 0 !important;
 }
 .section-img-inner.samp5 {
@@ -207,13 +211,13 @@
   background-image: url("../img/6.webp");
 }
 .section-img-inner.samp8 {
-  background-image: url("../img/7.jpg");
+  background-image: url("../img/7.webp");
 }
 .section-img-inner.samp9 {
-  background-image: url("../img/8.jpeg");
+  background-image: url("../img/8.webp");
 }
 .section-img-inner.samp10 {
-  background-image: url("../img/10.jpeg");
+  background-image: url("../img/9.webp");
 }
 .section-body {
   display: block;
