@@ -304,13 +304,15 @@
       }
     }
     .content {
-      // position: absolute;
-      // bottom: 116px;
-      // right: 24px;
+      position: absolute;
+      bottom: 116px;
+      right: 24px;
+      color: white;
+      z-index: 99;
       // color: #fff;
       // // background: rgba($color: #000000, $alpha: .6);
       // backdrop-filter: blur(8px);
-      // max-width: 320px;
+      max-width: 320px;
       // text-shadow: 1px 1px black;
       // padding: 8px;
       // font-size: 14px;
