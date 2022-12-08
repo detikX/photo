@@ -17,6 +17,7 @@
   min-height: 100vh;
   position: relative;
   // z-index: 2;
+  
   &-text {
     // backdrop-filter: blur(6px);
     // margin: 0 8px;
@@ -184,7 +185,7 @@
 }
 .section-img-inner.samp3 {
   background-image: url("../img/3.jpg");
-  // background-position: 50% 0 !important;
+  background-position: 50% 0 !important;
 }
 .section-img-inner.samp33 {
   background: #000;
@@ -225,6 +226,7 @@
   display: block;
   align-items: center;
   margin-left: auto;
+  background: rgba($color: #000000, $alpha: .5);
   order: 2;
   position: absolute;
   margin-right: 16px;
@@ -338,7 +340,7 @@
 
 .credit {
   backdrop-filter: blur(12px);
-  // padding: 32px;
+  padding: 32px;
   height: 100vh;
   position: relative;
   z-index: 101;
