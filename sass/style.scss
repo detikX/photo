@@ -339,11 +339,20 @@
 }
 
 .credit {
-  backdrop-filter: blur(12px);
+  // backdrop-filter: blur(12px);
   padding: 32px;
   height: 100vh;
   position: relative;
   z-index: 101;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.9);
+  }
   
   .detikx {
     width: 120px !important;
@@ -370,14 +379,14 @@
     padding: 8px;
   }
   .jobdesc {
-    color: #333;
+    color: #fffe;
     margin-top: 16px;
     font-size: 14px;
   }
   .naming {
     font-size: 16px;
-    color: #000;
-    text-shadow: 1px 1px #ccc;
+    color: #fff;
+    // text-shadow: 1px 1px #ccc;
     font-weight: bold;
   }
   &:after {
