@@ -185,6 +185,9 @@
 .section-img-inner.samp3 {
   background-image: url("../img/3.jpg");
   // background-position: 50% 0 !important;
+  @media screen and (max-width:766px) {
+    background-position: 15% 50% !important;
+  }
 }
 .section-img-inner.samp33 {
   background: #000;
@@ -195,9 +198,15 @@
 .section-img-inner.samp4 {
   background-image: url("../img/4.jpg");
   background-position: 50% 0 !important;
+  @media screen and (max-width:766px) {
+    background-position: 32% 100% !important;
+  }
 }
 .section-img-inner.samp5 {
   background-image: url("../img/5.jpg");
+  @media screen and (max-width:766px) {
+    background-position: 0% 50% !important;
+  }
 }
 .section-img-inner.samp6 {
   background-position: 50% 12% !important;
@@ -208,6 +217,9 @@
 }
 .section-img-inner.samp8 {
   background-image: url("../img/8.jpg");
+  @media screen and (max-width:766px) {
+    background-position: 24% 50% !important;
+  }
 }
 .section-img-inner.samp9 {
   background-image: url("../img/9.jpg");
@@ -480,7 +492,7 @@
       font-size: 45px;
     }
     @media screen and (max-width: 766px) {
-      font-size: 36px;
+      font-size: 30px;
       text-align: center;
     }
   }
@@ -532,6 +544,9 @@
   transform: translate(-50%,0%);
   @media screen and (min-width:1440px){
     transform: translate(-50%,-15%);  
+  }
+  @media screen and (max-width:766px) {
+    transform: translate(-50%,-50%);
   }
   width: auto;
   text-align: center;
@@ -664,7 +679,7 @@
 
 .seven {
   img {
-    height: 125% !important;
+    // height: 125% !important;
   }
   
 }
