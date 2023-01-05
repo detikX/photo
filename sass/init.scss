@@ -187,8 +187,8 @@ main {
 .slick-next,
 .slick-prev {
   // background: white;
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
   // box-shadow: 1px 3px 2px #bbb;
   border-radius: 50%;
   &:hover,
@@ -201,7 +201,7 @@ main {
 .slick-next:before,
 .slick-prev:before {
   font-family: "FontAwesome";
-    font-size: 28px;
+    font-size: 24px;
     text-align: center;
     color: #fff;
     opacity: 1;
@@ -209,18 +209,20 @@ main {
       font-size: 45px;
     }
     @media screen and (max-width:766px) {
-      font-size: 24px;
+      font-size: 20px;
     }
 }
 .slick-next {
   &:before {
     content: "\f054";
+    
   }
   left: initial;
   right: 20px;
   z-index: 1;
   top: initial;
   bottom: 12px;
+  background-color: rgba(0,0,0,.4);
   @media screen and (min-width:1440px) {
     bottom: 50px;
   }
@@ -230,6 +232,7 @@ main {
   &::before {
     content: "\f053";
   }
+  background-color: rgba(0,0,0,.4);
   right: 100px;
   left: initial;
   z-index: 1;
