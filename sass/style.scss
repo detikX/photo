@@ -238,15 +238,31 @@
 }
 .section-img-inner.samp9 {
   background-image: url("../img/9.jpg");
+  @media screen and (max-width:766px) {
+    background-position: 85% 5% !important;
+  }
 }
 .section-img-inner.samp10 {
   background-image: url("../img/10.jpg");
+  @media screen and (max-width:766px) {
+    background-position: 15% 50% !important;
+  }
 }
 .section-img-inner.samp11 {
   background-image: url("../img/11.jpg");
+  @media screen and (max-width:766px) {
+    background-position: 40% 50% !important;
+  }
 }
 .section-img-inner.samp12 {
-  background-image: url("../img/11.jpg");
+  background-image: url("../img/12.jpg");
+}
+
+.section-img-inner.samp13 {
+  background-image: url("../img/13.jpg");
+  @media screen and (max-width:766px) {
+    background-position: 15% 50% !important;
+  }
 }
 .section-body {
   display: block;
