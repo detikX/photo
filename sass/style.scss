@@ -22,7 +22,7 @@
     // margin: 0 8px;
     // border: 1px solid;
     padding: 4px;
-    display: none;
+    // display: none;
     max-width: 320px;
     position: relative;
     background: rgba(0,0,0,.4);
@@ -210,18 +210,21 @@
   background-image: url("../img/4.jpg");
   background-position: 50% 0 !important;
   @media screen and (max-width:766px) {
-    background-position: 32% 100% !important;
+    background-position: 50% 100% !important;
   }
 }
 .section-img-inner.samp5 {
   background-image: url("../img/5.jpg");
   @media screen and (max-width:766px) {
-    background-position: 0% 50% !important;
+    background-position: 45% 50% !important;
   }
 }
 .section-img-inner.samp6 {
   background-position: 50% 12% !important;
   background-image: url("../img/6.jpg");
+  @media screen and (max-width:766px) {
+    background-position: 78% 50% !important;
+  }
 }
 .section-img-inner.samp7 {
   background-image: url("../img/w.jpg");
@@ -230,7 +233,7 @@
   background-image: url("../img/8.jpg");
   background-position: 50% 5% !important;
   @media screen and (max-width:766px) {
-    background-position: 24% 5% !important;
+    background-position: 80% 5% !important;
   }
 }
 .section-img-inner.samp9 {
