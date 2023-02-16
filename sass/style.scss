@@ -11,6 +11,10 @@
   width: 100%;
   object-fit: contain;
 }
+.d-block {
+  display: block !important;
+  height: 100% !important;
+}
 .cekis {
   float: right;
   width: fit-content;
@@ -408,8 +412,8 @@
   }
   .thumb {
     width: 25vw;
-    margin: 8px;
-    height: 420px;
+    margin: 8px 0px;
+    height: 220px;
     display: inline-block;
     position: relative;
     margin-bottom: 8px;
