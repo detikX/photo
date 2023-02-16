@@ -11,7 +11,10 @@
   width: 100%;
   object-fit: contain;
 }
-
+.cekis {
+  float: right;
+  width: fit-content;
+}
 .section {
   display: block;
   min-height: 100vh;
@@ -210,7 +213,7 @@
   background-image: url("../img/4.jpg");
   background-position: 50% 0 !important;
   @media screen and (max-width:766px) {
-    background-position: 50% 100% !important;
+    background-position: 50% 25% !important;
   }
 }
 .section-img-inner.samp5 {
@@ -228,6 +231,9 @@
 }
 .section-img-inner.samp7 {
   background-image: url("../img/w.jpg");
+  @media screen and (max-width:766px) {
+    background-position: 50% 50% !important;
+  }
 }
 .section-img-inner.samp8 {
   background-image: url("../img/8.jpg");
@@ -239,19 +245,19 @@
 .section-img-inner.samp9 {
   background-image: url("../img/9.jpg");
   @media screen and (max-width:766px) {
-    background-position: 85% 5% !important;
+    background-position: 85% 55%  !important;
   }
 }
 .section-img-inner.samp10 {
   background-image: url("../img/10.jpg");
   @media screen and (max-width:766px) {
-    background-position: 15% 50% !important;
+    background-position: 15% 80% !important;
   }
 }
 .section-img-inner.samp11 {
   background-image: url("../img/11.jpg");
   @media screen and (max-width:766px) {
-    background-position: 40% 50% !important;
+    background-position: 40% 0% !important;
   }
 }
 .section-img-inner.samp12 {
@@ -261,7 +267,7 @@
 .section-img-inner.samp13 {
   background-image: url("../img/13.jpg");
   @media screen and (max-width:766px) {
-    background-position: 15% 50% !important;
+    background-position: 15% 0% !important;
   }
 }
 .section-body {
