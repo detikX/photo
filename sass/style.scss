@@ -212,14 +212,17 @@
 
 .section-img-inner.samp2 {
     background-image: url("../img/2.jpg");
-    background-position: 50% 15% !important;
+    background-position: 50% 100% !important;
+    @media screen and (max-width:766px) {
+        background-position: 45% 15% !important;
+    }
 }
 
 .section-img-inner.samp3 {
     background-image: url("../img/3.jpg");
     // background-position: 50% 0 !important;
     @media screen and (max-width: 766px) {
-        background-position: 30% 50% !important;
+        background-position: 56% 50% !important;
     }
 }
 
@@ -234,7 +237,7 @@
     background-image: url("../img/4.jpg");
     background-position: 50% 0 !important;
     @media screen and (max-width: 766px) {
-        background-position: 50% 25% !important;
+        background-position: 70% 25% !important;
     }
 }
 
@@ -249,14 +252,14 @@
     background-position: 50% 12% !important;
     background-image: url("../img/6.jpg");
     @media screen and (max-width: 766px) {
-        background-position: 78% 50% !important;
+        background-position: 60% 50% !important;
     }
 }
 
 .section-img-inner.samp7 {
-    background-image: url("../img/w.jpg");
+    background-image: url("../img/7.jpg");
     @media screen and (max-width: 766px) {
-        background-position: 50% 50% !important;
+        background-position: 63% 50% !important;
     }
 }
 
@@ -264,39 +267,45 @@
     background-image: url("../img/8.jpg");
     background-position: 50% 5% !important;
     @media screen and (max-width: 766px) {
-        background-position: 80% 5% !important;
+        background-position: 60% 5% !important;
     }
 }
 
 .section-img-inner.samp9 {
     background-image: url("../img/9.jpg");
+    background-position: 50% 15% !important;
     @media screen and (max-width: 766px) {
-        background-position: 85% 55% !important;
+        background-position: 50% 55% !important;
     }
 }
 
 .section-img-inner.samp10 {
     background-image: url("../img/10.jpg");
     @media screen and (max-width: 766px) {
-        background-position: 15% 80% !important;
+        background-position: 50% 80% !important;
     }
 }
 
 .section-img-inner.samp11 {
     background-image: url("../img/11.jpg");
+    background-position: 50% 0% !important;
     @media screen and (max-width: 766px) {
-        background-position: 40% 0% !important;
+        background-position: 50% 0% !important;
     }
 }
 
 .section-img-inner.samp12 {
     background-image: url("../img/12.jpg");
+    background-position: 50% 100% !important;
+    @media screen and (max-width: 766px) {
+        background-position: 63% 0% !important;
+    }
 }
 
 .section-img-inner.samp13 {
     background-image: url("../img/13.jpg");
     @media screen and (max-width: 766px) {
-        background-position: 15% 0% !important;
+        background-position: 50% 0% !important;
     }
 }
 
