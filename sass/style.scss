@@ -232,10 +232,10 @@
 
 .section-img-inner.samp2 {
     background-image: url("../img/2.jpg");
-    background-position: 50% 100% !important;
+    background-position: 50% 80% !important;
 
     @media screen and (max-width:766px) {
-        background-position: 45% 15% !important;
+        background-position: 60% 15% !important;
     }
 }
 
@@ -244,7 +244,7 @@
 
     // background-position: 50% 0 !important;
     @media screen and (max-width: 766px) {
-        background-position: 56% 50% !important;
+        background-position: 10% 50% !important;
     }
 }
 
@@ -260,12 +260,13 @@
     background-position: 50% 0 !important;
 
     @media screen and (max-width: 766px) {
-        background-position: 70% 25% !important;
+        background-position: 44% 25% !important;
     }
 }
 
 .section-img-inner.samp5 {
     background-image: url("../img/5.jpg");
+    background-position: 50% 0% !important;
 
     @media screen and (max-width: 766px) {
         background-position: 45% 50% !important;
@@ -277,7 +278,7 @@
     background-image: url("../img/6.jpg");
 
     @media screen and (max-width: 766px) {
-        background-position: 60% 50% !important;
+        background-position: 40% 50% !important;
     }
 }
 
@@ -285,7 +286,7 @@
     background-image: url("../img/7.jpg");
 
     @media screen and (max-width: 766px) {
-        background-position: 63% 50% !important;
+        background-position: 70% 50% !important;
     }
 }
 
@@ -303,7 +304,7 @@
     background-position: 50% 15% !important;
 
     @media screen and (max-width: 766px) {
-        background-position: 50% 55% !important;
+        background-position: 95% 55% !important;
     }
 }
 
@@ -311,7 +312,7 @@
     background-image: url("../img/10.jpg");
 
     @media screen and (max-width: 766px) {
-        background-position: 50% 80% !important;
+        background-position: 70% 80% !important;
     }
 }
 
@@ -326,7 +327,7 @@
 
 .section-img-inner.samp12 {
     background-image: url("../img/12.jpg");
-    background-position: 50% 100% !important;
+    background-position: 30% 0% !important;
 
     @media screen and (max-width: 766px) {
         background-position: 63% 0% !important;
@@ -335,9 +336,10 @@
 
 .section-img-inner.samp13 {
     background-image: url("../img/13.jpg");
+    background-position: 50% 10% !important;
 
     @media screen and (max-width: 766px) {
-        background-position: 50% 0% !important;
+        background-position: 25% 0% !important;
     }
 }
 
@@ -354,7 +356,7 @@
     background-image: url("../img/15.jpg");
 
     @media screen and (max-width: 766px) {
-        background-position: 50% 0% !important;
+        background-position: 80% 0% !important;
     }
 }
 
