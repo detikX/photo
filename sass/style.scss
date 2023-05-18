@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display&family=Libre+Baskerville&family=Montserrat:wght@400;700&family=Oxanium&family=Poppins:wght@400;600&display=swap');
+
+main {
+    font-family: 'Poppins';
+}
+
+
+
 .background {
     margin: 0 auto;
     text-align: center;
@@ -664,7 +672,7 @@
         font-size: 30px;
         text-shadow: 2px 2px black;
         text-align: center;
-        font-family: 'Montserrat';
+        font-family: 'Poppins';
 
         @media screen and (min-width:1440px) {
             font-size: 45px;
@@ -916,7 +924,7 @@
 
 
 .containerx {
-    width: 400vw;
+    width: 800vw;
     height: 100vh;
     display: flex;
     flex-wrap: nowrap;
@@ -927,6 +935,27 @@
     width: 100%;
     height: 100vh;
     background-size: cover;
+    position: relative;
+
+    .descr {
+        position: absolute;
+        right: 5vw;
+        bottom: 5vh;
+        padding: 4px;
+        color: white;
+        max-width: 320px;
+        background: rgba($color: #000000, $alpha: .5);
+
+        @media screen and (max-width:766px) {
+            background: rgba($color: #000000, $alpha: .5);
+            width: 50vw;
+        }
+
+        &.rightxz {
+            right: initial !important;
+            left: 5vw;
+        }
+    }
 
     img {
         width: 100%;
@@ -957,4 +986,42 @@
 
 .purple {
     background-image: url("../img/12.jpg");
+
+    @media screen and (max-width:766px) {
+        background-position: 30% 0;
+    }
+}
+
+.gb {
+    &-13 {
+        background-image: url("../img/13.jpg");
+
+        @media screen and (max-width:766px) {
+            background-position: 35% 0;
+        }
+    }
+
+    &-14 {
+        background-image: url("../img/14.jpg");
+
+        @media screen and (max-width:766px) {
+            background-position: 35% 0;
+        }
+    }
+
+    &-15 {
+        background-image: url("../img/15.jpg");
+
+        @media screen and (max-width:766px) {
+            background-position: 40% 0%;
+        }
+    }
+
+    &-16 {
+        background-image: url("../img/16.jpg");
+
+        @media screen and (max-width:766px) {
+            background-position: 20% 0;
+        }
+    }
 }
