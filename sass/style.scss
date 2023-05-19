@@ -34,11 +34,12 @@ main {
         padding: 4px;
         max-width: 320px;
         position: relative;
+        float: right;
 
         // background: rgba(0,0,0,.4);
         @media screen and (max-width: 766px) {
             width: auto;
-            background: rgba(0, 0, 0, .6);
+            // background: rgba(0, 0, 0, .6);
             padding: 8px;
         }
 
@@ -429,8 +430,8 @@ main {
 
 .credit {
     backdrop-filter: blur(12px);
-    // padding: 32px;
-    height: 100vh;
+    padding: 32px;
+    min-height: 100vh;
     position: relative;
     z-index: 101;
 
@@ -643,6 +644,19 @@ main {
         bottom: 17%;
     }
 
+    @media screen and (max-width:766px) {
+        position: absolute;
+        display: block;
+        bottom: 30%;
+        left: 49%;
+        color: #fff;
+        z-index: 999;
+        margin: 0 auto;
+        transform: translate(-50%, -15%);
+        width: 75%;
+
+    }
+
     left: 49%;
     // width: 100%;
     color: #fff;
@@ -723,6 +737,7 @@ main {
     // font-weight: 700;
     cursor: pointer;
 
+
     &:focus,
     &:hover {
         box-shadow: none;
@@ -742,7 +757,7 @@ main {
     }
 
     @media screen and (max-width:766px) {
-        transform: translate(-50%, -100%);
+        transform: translate(-50%, -50%);
     }
 
     width: auto;
@@ -949,6 +964,7 @@ main {
         @media screen and (max-width:766px) {
             background: rgba($color: #000000, $alpha: .5);
             width: 50vw;
+            font-size: 12px;
         }
 
         &.rightxz {
@@ -1046,5 +1062,9 @@ main {
 
     p {
         color: white;
+
+        @media screen and (max-width:766px) {
+            font-size: 14px;
+        }
     }
 }
