@@ -852,7 +852,7 @@ main {
         @media screen and (max-width: 766px) {
             background: rgba($color: #000000, $alpha: .5);
             width: 50vw;
-            font-size: 12px;
+            font-size: 11px;
         }
         &.rightxz {
             right: initial !important;
@@ -939,4 +939,10 @@ main {
             font-size: 14px;
         }
     }
+}
+
+.cont-right {
+    float: right;
+    text-align: end;
+    width: fit-content !important;
 }
