@@ -1038,6 +1038,10 @@ main {
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+
+        @media screen and (max-width:766px) {
+            width: 85%;
+        }
     }
 
     p {
