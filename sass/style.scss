@@ -388,7 +388,8 @@ main {
 }
 
 .credit {
-    backdrop-filter: blur(12px);
+    // backdrop-filter: blur(12px);
+    background: black;
     padding: 32px;
     min-height: 100vh;
     position: relative;
