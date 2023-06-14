@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display&family=Libre+Baskerville&family=Montserrat:wght@400;700&family=Oxanium&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Sans:wght@400;700&family=DM+Serif+Display&family=Libre+Baskerville&family=Montserrat:wght@400;700&family=Oxanium&family=Poppins:wght@400;600&display=swap');
 
-main {
-    font-family: 'Poppins';
+// main {
+//     font-family: 'Poppins';
+// }
+
+@import 'galeri';
+
+main, body, div, p {
+    font-family: 'DM Sans'
 }
+
 
 .background {
     margin: 0 auto;
@@ -1086,3 +1093,4 @@ main {
     text-align: end;
     width: fit-content !important;
 }
+
