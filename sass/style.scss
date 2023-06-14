@@ -240,7 +240,7 @@ main, body, div, p {
 
     // background-position: 50% 0 !important;
     @media screen and (max-width: 766px) {
-        background-position: 10% 50% !important
+        background-position: 50% 50% !important
     }
 }
 
@@ -264,7 +264,7 @@ main, body, div, p {
     background-image: url("../img/5.jpg");
 
     @media screen and (max-width: 766px) {
-        background-position: 90% 50% !important;
+        background-position: 10% 50% !important;
     }
 }
 
@@ -275,11 +275,14 @@ main, body, div, p {
 
 .section-img-inner.samp7 {
     background-image: url("../img/7.jpg");
+    @media screen and (max-width: 766px) {
+        background-position: 20% 50% !important;
+    }
 }
 
 .section-img-inner.samp8 {
     background-image: url("../img/8.jpg");
-    background-position: 50% 5% !important;
+    background-position: 75% 5% !important;
 
     @media screen and (max-width: 766px) {
         background-position: 24% 5% !important;
@@ -292,6 +295,9 @@ main, body, div, p {
 
 .section-img-inner.samp10 {
     background-image: url("../img/10.jpg");
+    @media screen and (max-width: 766px) {
+        background-position: 50% 5% !important;
+    }
 }
 
 .section-img-inner.samp11 {
