@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Sans:wght@400;700&family=DM+Serif+Display&family=Libre+Baskerville&family=Montserrat:wght@400;700&family=Oxanium&family=Poppins:wght@400;600&display=swap');
-
 // main {
 //     font-family: 'Poppins';
 // }
-
 @import 'galeri';
-
-main, body, div, p {
+main,
+body,
+div,
+p {
     font-family: 'DM Sans'
 }
-
 
 .background {
     margin: 0 auto;
@@ -30,7 +29,6 @@ main, body, div, p {
     display: block;
     min-height: 100vh;
     position: relative;
-
     // z-index: 2;
     &-text {
         // backdrop-filter: blur(6px);
@@ -39,7 +37,6 @@ main, body, div, p {
         padding: 4px;
         max-width: 320px;
         position: relative;
-
         // float: right;
         // background: rgba(0,0,0,.4);
         @media screen and (max-width: 766px) {
@@ -47,7 +44,6 @@ main, body, div, p {
             // background: rgba(0, 0, 0, .6);
             padding: 8px;
         }
-
         &::after {
             // content: "";
             // position: absolute;
@@ -59,7 +55,6 @@ main, body, div, p {
             // bottom: 0;
             // right: 0;
         }
-
         h2,
         h1 {
             font-size: 28px;
@@ -70,18 +65,15 @@ main, body, div, p {
             position: relative;
             z-index: 4;
         }
-
         p {
             color: white;
             position: relative;
             z-index: 4;
             font-size: 16px;
             margin-bottom: 0;
-
             @media screen and (min-width: 1440px) {
                 font-size: 20px;
             }
-
             @media screen and (max-width: 766px) {
                 font-size: 12px;
                 height: auto;
@@ -100,7 +92,6 @@ main, body, div, p {
     transform: translate(-50%, 0%);
     left: 50%;
     font-size: 14px;
-
     @media screen and (min-width: 1440px) {
         right: 180px;
         position: absolute;
@@ -111,7 +102,6 @@ main, body, div, p {
         left: initial;
         font-size: 22px;
     }
-
     @media screen and (max-width:766px) {
         position: absolute;
         bottom: 25px;
@@ -136,11 +126,9 @@ main, body, div, p {
     width: 320px;
     text-align: center;
     background: rgba(0, 0, 0, .8);
-
     @media screen and (min-width: 1440px) {
         font-size: 16px;
     }
-
     @media screen and (max-width:766px) {
         font-size: 12px;
     }
@@ -154,7 +142,6 @@ main, body, div, p {
 .help-width {
     margin: 0 auto;
     width: 720px;
-
     @media screen and (max-width: 766px) {
         width: auto;
     }
@@ -167,16 +154,13 @@ main, body, div, p {
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-
     a {
         color: rgb(196, 100, 36);
         font-weight: bold;
     }
-
     @media screen and (max-width:766px) {
         right: initial !important;
     }
-
     .section-text {
         margin: 0 auto;
         // text-align: center;
@@ -184,25 +168,20 @@ main, body, div, p {
         max-width: 90%;
         padding: 4px;
         display: block;
-
         @media screen and (min-width: 1440px) {
             width: 50%;
         }
-
         p {
-            font-size: 14px;
+            // font-size: 14px;
             margin-bottom: 16px;
-
             @media screen and (max-width: 766px) {
-                font-size: 12px;
+                font-size: 13px;
             }
-
             @media screen and (min-width:1440px) {
                 font-size: 20px;
                 margin-bottom: 16px;
             }
         }
-
         @media screen and (max-width:766px) {
             width: 100%;
             right: initial !important;
@@ -237,7 +216,6 @@ main, body, div, p {
 
 .section-img-inner.samp3 {
     background-image: url("../img/3.jpg");
-
     // background-position: 50% 0 !important;
     @media screen and (max-width: 766px) {
         background-position: 50% 50% !important
@@ -254,7 +232,6 @@ main, body, div, p {
 .section-img-inner.samp4 {
     background-image: url("../img/4.jpg");
     background-position: 50% 0 !important;
-
     @media screen and (max-width: 766px) {
         background-position: 32% 100% !important;
     }
@@ -262,7 +239,6 @@ main, body, div, p {
 
 .section-img-inner.samp5 {
     background-image: url("../img/5.jpg");
-
     @media screen and (max-width: 766px) {
         background-position: 10% 50% !important;
     }
@@ -283,7 +259,6 @@ main, body, div, p {
 .section-img-inner.samp8 {
     background-image: url("../img/8.jpg");
     background-position: 75% 5% !important;
-
     @media screen and (max-width: 766px) {
         background-position: 24% 5% !important;
     }
@@ -334,12 +309,10 @@ main, body, div, p {
     width: auto;
     right: 16px;
     bottom: 16px;
-
     &.leftx {
         right: auto;
         left: 16px;
     }
-
     @media screen and (max-width: 766px) {
         width: 50%;
     }
@@ -358,19 +331,15 @@ main, body, div, p {
     font-size: 18px;
     // padding: 3px;
     transition: .3s;
-
     i {
-
         // padding: 4px;
         // font-size: 18px;
         @media screen and (max-width: 766px) {}
-
         @media screen and (min-width: 1440px) {
             font-size: 22px;
             padding-top: 2px;
         }
     }
-
     &:hover {
         background: #ccc;
     }
@@ -402,21 +371,17 @@ main, body, div, p {
     position: relative;
     z-index: 49;
     height: 100vh;
-
     .full-page {
         position: relative;
         width: 100%;
-
         .image {
             height: 100vh;
-
             img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
             }
         }
-
         .content {
             position: absolute;
             bottom: 116px;
@@ -433,18 +398,15 @@ main, body, div, p {
             // text-align: right;
             font-size: 14px;
             padding: 4px;
-
             // bottom: 74px;
             @media screen and (max-width: 766px) {
                 bottom: 74px;
                 width: fit-content;
             }
-
             @media screen and (min-width:1440px) {
                 bottom: 116px;
                 font-size: 20px;
             }
-
             &.leftx {
                 text-align: left;
                 right: initial;
@@ -461,25 +423,20 @@ main, body, div, p {
     height: 100vh;
     position: relative;
     z-index: 101;
-
     &.d-block {
         height: 100% !important;
     }
-
     .alls {
         display: block;
         margin: 0 auto;
         text-align: center;
     }
-
     .font-std {
         font-size: 2rem !important;
-
         @media screen and (max-width: 766px) {
             font-size: 16px !important;
         }
     }
-
     .thumb {
         width: 22vw;
         margin: 8px 0px;
@@ -487,12 +444,10 @@ main, body, div, p {
         display: inline-block;
         position: relative;
         margin-bottom: 8px;
-
         @media screen and (min-width: 1800px) {
             width: 25vw;
             height: 420px;
         }
-
         @media screen and (max-width:766px) {
             width: 100%;
             margin: 0 auto;
@@ -500,18 +455,15 @@ main, body, div, p {
             position: relative;
             margin-bottom: 8px;
         }
-
         .image {
             width: 100%;
             height: 100%;
-
             img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
             }
         }
-
         .ceki {
             position: absolute;
             bottom: 0;
@@ -521,12 +473,10 @@ main, body, div, p {
             z-index: 9;
             background: linear-gradient(to top, black, transparent);
             transition: .2s;
-
             &:hover {
                 opacity: .4;
             }
         }
-
         .namax {
             position: absolute;
             left: 8px;
@@ -535,13 +485,11 @@ main, body, div, p {
             text-align: left;
             font-size: 16px;
             color: white;
-
             @media screen and (max-width: 766px) {
                 font-size: 12px;
                 width: 45%;
             }
         }
-
         .fax {
             position: absolute;
             right: 8px;
@@ -550,22 +498,18 @@ main, body, div, p {
             font-size: 16px;
         }
     }
-
     .detikx {
         width: 120px !important;
     }
-
     a {
         &:hover {
             text-decoration: none !important;
         }
     }
-
     .padding {
         padding: 8px;
         // border: 3px solid white;
     }
-
     .kotak {
         position: absolute;
         left: 0;
@@ -574,24 +518,20 @@ main, body, div, p {
         bottom: 0;
         // backdrop-filter: blur(12px);
     }
-
     h2 {
         // border: 1px solid;
         padding: 8px;
     }
-
     .jobdesc {
         color: #fafafa;
         margin-top: 16px;
         font-size: 14px;
     }
-
     .naming {
         font-size: 16px;
         color: #fff;
         font-weight: bold;
     }
-
     &:after {
         position: absolute;
         left: 0;
@@ -602,24 +542,20 @@ main, body, div, p {
         z-index: 1;
         // background: rgba($color: #fff, $alpha: 0.1);
     }
-
     h2 {
         font-weight: 700;
         position: relative;
         z-index: 9;
     }
-
     img {
         position: relative;
         z-index: 9;
     }
-
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 .logo-detik {
     position: fixed;
@@ -627,13 +563,11 @@ main, body, div, p {
     top: 12px;
     z-index: 999;
     width: 90px;
-
     img {
         width: 100%;
         height: 100%;
         object-fit: contain;
     }
-
     @media screen and (max-width: 766px) {
         top: 12px;
         // left: ;
@@ -654,13 +588,11 @@ main, body, div, p {
     height: auto;
     position: relative;
     z-index: 999;
-
     img {
         width: 100%;
         height: 100%;
         object-fit: contain;
     }
-
     @media screen and (max-width: 766px) {
         width: 150px;
     }
@@ -670,11 +602,9 @@ main, body, div, p {
     position: absolute;
     display: block;
     bottom: 18%;
-
     @media screen and (min-width: 1440px) {
         bottom: 17%;
     }
-
     @media screen and (max-width:766px) {
         position: absolute;
         display: block;
@@ -686,16 +616,14 @@ main, body, div, p {
         transform: translate(-50%, -15%);
         width: 75%;
     }
-
     left: 49%;
     // width: 100%;
     color: #fff;
     z-index: 999;
     margin: 0 auto;
     transform: translate(-50%,
-        -15%);
+    -15%);
     width: fit-content;
-
     // @media screen and (max-width: 766px) {
     //   // bottom: 16px;
     //   width: 100%;
@@ -710,7 +638,6 @@ main, body, div, p {
         bottom: 20%;
         // border: 1px solid;
     }
-
     // text-align: center;
     h2 {
         font-weight: bold;
@@ -718,18 +645,15 @@ main, body, div, p {
         text-shadow: 2px 2px black;
         text-align: center;
         font-family: 'Poppins';
-
         @media screen and (min-width: 1440px) {
             font-size: 45px;
         }
-
         @media screen and (max-width: 766px) {
             font-size: 2rem;
             margin: 0 8px;
             text-align: center;
         }
     }
-
     // background: rgba(0, 0, 0, 0.6);
     // padding: 4px 0;
     // }
@@ -737,7 +661,6 @@ main, body, div, p {
 
 .isdesktop {
     display: block;
-
     @media screen and (max-width: 766px) {
         display: none;
     }
@@ -745,7 +668,6 @@ main, body, div, p {
 
 .ismobile {
     display: none;
-
     @media screen and (max-width: 766px) {
         display: block;
     }
@@ -754,7 +676,6 @@ main, body, div, p {
 .order {
     order: -1;
     margin-left: 16px;
-
     @media screen and (max-width: 766px) {
         margin-left: 0;
     }
@@ -767,7 +688,6 @@ main, body, div, p {
     font-weight: 700;
     // font-weight: 700;
     cursor: pointer;
-
     &:focus,
     &:hover {
         box-shadow: none;
@@ -781,15 +701,12 @@ main, body, div, p {
     left: 50%;
     bottom: 0;
     transform: translate(-50%, 0%);
-
     @media screen and (min-width: 1440px) {
         transform: translate(-50%, -15%);
     }
-
     @media screen and (max-width:766px) {
         transform: translate(-50%, -50%);
     }
-
     width: auto;
     text-align: center;
     color: #fafafa;
@@ -799,7 +716,6 @@ main, body, div, p {
     padding: 8px;
     // text-shadow: 2px 2px #000;
     z-index: 999;
-
     // border: 2px solid;
     // &:after {
     //   content: '';
@@ -812,11 +728,9 @@ main, body, div, p {
         // border-bottom: 1px solid;
         /* text-shadow: 1px 1px white; */
         font-size: 15px;
-
         @media screen and (min-width: 1440px) {
             font-size: 18px;
         }
-
         @media screen and (max-width: 766px) {
             // bottom: 120px;
             // width: 255px;
@@ -832,7 +746,6 @@ main, body, div, p {
     z-index: 99;
     width: 100%;
     right: 0;
-
     @media screen and (max-width: 766px) {
         top: 40px;
     }
@@ -840,7 +753,6 @@ main, body, div, p {
 
 #play-button {
     position: relative;
-
     .teks {
         position: absolute;
         right: 24px;
@@ -848,7 +760,6 @@ main, body, div, p {
         font-style: italic;
         font-weight: bold;
         background: rgba($color: white, $alpha: 0.5);
-
         @media screen and (max-width: 766px) {
             display: none;
         }
@@ -871,20 +782,16 @@ main, body, div, p {
     // position: fixed;
     // top: 0;
     position: absolute;
-
     @media screen and (max-width: 766px) {
         top: -40px;
         right: -8px;
     }
-
     right: 0;
     z-index: 999;
-
     i {
         // background-color: red;
         font-size: 36px;
         transition: 0.3s;
-
         &:hover,
         &:focus,
         &:active {
@@ -895,11 +802,9 @@ main, body, div, p {
 
 .alls {
     display: none;
-
     @media screen and (max-width: 739px) {
         display: block;
     }
-
     &__text {
         position: absolute;
         left: 50%;
@@ -923,31 +828,24 @@ main, body, div, p {
     0% {
         -webkit-transform: rotate(0deg);
     }
-
     20% {
         -webkit-transform: rotate(30deg);
     }
-
     25% {
         -webkit-transform: rotate(40deg);
     }
-
     45% {
         -webkit-transform: rotate(90deg);
     }
-
     50% {
         -webkit-transform: rotate(90deg);
     }
-
     70% {
         -webkit-transform: rotate(70deg);
     }
-
     75% {
         -webkit-transform: rotate(30deg);
     }
-
     100% {
         -webkit-transform: rotate(0deg);
     }
@@ -976,7 +874,6 @@ main, body, div, p {
     height: 100vh;
     background-size: cover;
     position: relative;
-
     .descr {
         position: absolute;
         right: 5vw;
@@ -985,19 +882,16 @@ main, body, div, p {
         color: white;
         max-width: 320px;
         background: rgba($color: #000000, $alpha: .5);
-
         @media screen and (max-width: 766px) {
             background: rgba($color: #000000, $alpha: .5);
             width: 50vw;
             font-size: 11px;
         }
-
         &.rightxz {
             right: initial !important;
             left: 5vw;
         }
     }
-
     img {
         width: 100%;
         height: 100%;
@@ -1007,7 +901,6 @@ main, body, div, p {
 
 .red {
     background-image: url("../img/10.jpg");
-
     @media screen and (max-width: 766px) {
         background-position: 74% 50%;
     }
@@ -1015,7 +908,6 @@ main, body, div, p {
 
 .blue {
     background-image: url("../img/9.jpg");
-
     @media screen and (max-width: 766px) {
         background-position: 45% 0;
     }
@@ -1027,7 +919,6 @@ main, body, div, p {
 
 .purple {
     background-image: url("../img/12.jpg");
-
     @media screen and (max-width: 766px) {
         background-position: 30% 0;
     }
@@ -1036,31 +927,24 @@ main, body, div, p {
 .gb {
     &-13 {
         background-image: url("../img/13.jpg");
-
         @media screen and (max-width: 766px) {
             background-position: 35% 0;
         }
     }
-
     &-14 {
         background-image: url("../img/14.jpg");
-
         @media screen and (max-width: 766px) {
             background-position: 35% 0;
         }
     }
-
     &-15 {
         background-image: url("../img/15.jpg");
-
         @media screen and (max-width: 766px) {
             background-position: 40% 0%;
         }
     }
-
     &-16 {
         background-image: url("../img/16.jpg");
-
         @media screen and (max-width: 766px) {
             background-position: 20% 0;
         }
@@ -1073,21 +957,17 @@ main, body, div, p {
     min-height: 100vh;
     position: relative;
     z-index: 99;
-
     .lala {
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-
         @media screen and (max-width: 766px) {
             width: 85%;
         }
     }
-
     p {
         color: white;
-
         @media screen and (max-width: 766px) {
             font-size: 14px;
         }
@@ -1099,4 +979,3 @@ main, body, div, p {
     text-align: end;
     width: fit-content !important;
 }
-
