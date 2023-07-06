@@ -212,13 +212,16 @@ p {
 .section-img-inner.samp2 {
     background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/07/06/krematorium-anabul-kesayangan-1.jpeg?w=1080");
     background-position: 50% 15% !important;
+    @media screen and (max-width:766px) {
+        background-position: 15% 7% !important;
+    }
 }
 
 .section-img-inner.samp3 {
     background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/07/06/krematorium-anabul-kesayangan-2.jpeg?w=1080");
     // background-position: 50% 0 !important;
     @media screen and (max-width: 766px) {
-        background-position: 50% 50% !important
+        background-position: 65% 50% !important
     }
 }
 
@@ -240,7 +243,7 @@ p {
 .section-img-inner.samp5 {
     background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/07/06/krematorium-anabul-kesayangan-4.jpeg?w=1080");
     @media screen and (max-width: 766px) {
-        background-position: 10% 50% !important;
+        background-position: 49% 50% !important;
     }
 }
 
