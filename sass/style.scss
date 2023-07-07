@@ -531,10 +531,10 @@ p {
     .jobdesc {
         color: #fafafa;
         margin-top: 16px;
-        font-size: 14px;
+        font-size: 1.2rem;
     }
     .naming {
-        font-size: 16px;
+        font-size: 1.2rem;
         color: #fff;
         font-weight: bold;
     }
@@ -994,4 +994,48 @@ p {
 
 
     }
+}
+
+.baca-detikx {
+    .bacajuga_box {
+        display: initial !important;
+        .container {
+            display: none;
+        }
+    }
+    .bacajuga {
+        width: 100% !important;
+        display: block;
+        a {
+            display: inline-block;
+            padding: 0px;
+            width: 47% !important;
+            margin: 0 8px;
+            position: relative;
+            height: 320px;
+            text-align: left;
+            @media screen and (max-width:766px) {
+                width: 100% !important;
+                margin: 4px 0;
+            }
+            &:hover {
+                text-decoration: none;
+                color: orange !important;
+            }
+            article {
+                position: absolute;
+                top: initial;
+                /* transform: translateY(-50%); */
+                width: 100%;
+                background: linear-gradient(to top, black, transparent);
+                padding: 8px;
+                bottom: 0;
+                transform: initial;
+                h2 {
+                    font-family: 'Montserrat' !important;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }   
 }
