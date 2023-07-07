@@ -444,9 +444,9 @@ p {
         }
     }
     .thumb {
-        width: 22vw;
+        width: 20vw;
         margin: 8px 0px;
-        height: 220px;
+        height: 320px;
         display: inline-block;
         position: relative;
         margin-bottom: 8px;
@@ -985,4 +985,13 @@ p {
     float: right;
     text-align: end;
     width: fit-content !important;
+}
+
+.containerg {
+    @media screen and (max-width:766px) {
+        width: 90%;
+        margin: 0 auto;
+
+
+    }
 }
