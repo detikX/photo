@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Sans:wght@400;700&family=DM+Serif+Display&family=Libre+Baskerville&family=Montserrat:wght@400;700&family=Oxanium&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=DM+Sans:wght@400;700&family=DM+Serif+Display&family=Quicksand&family=Montserrat:wght@400;700&family=Abril+Fatface&family=Poppins:wght@400;600&display=swap');
 // main {
 //     font-family: 'Poppins';
 // }
@@ -7,7 +7,7 @@ main,
 body,
 div,
 p {
-    font-family: 'DM Sans'
+    font-family: 'Quicksand'
 }
 
 .background {
@@ -206,16 +206,16 @@ p {
 }
 
 .section-img-inner.samp1 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/06/15/penjaga-palang-pintu-rel-kereta-api-krl.jpeg?w=1080");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/08/02/kaset-gen-z.jpeg?w=1080");
 }
 
 .section-img-inner.samp2 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/06/15/penjaga-palang-pintu-rel-kereta-api-krl-1.jpeg?w=1080");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/08/02/kaset-gen-z-1.jpeg?w=1080");
     background-position: 50% 15% !important;
 }
 
 .section-img-inner.samp3 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/06/15/penjaga-palang-pintu-rel-kereta-api-krl-2.jpeg?w=1080");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/08/02/kaset-gen-z-2.jpeg?w=1080");
     // background-position: 50% 0 !important;
     @media screen and (max-width: 766px) {
         background-position: 50% 50% !important
@@ -230,7 +230,7 @@ p {
 }
 
 .section-img-inner.samp4 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/06/15/penjaga-palang-pintu-rel-kereta-api-krl-3.jpeg?w=1080");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/08/02/kaset-gen-z-3.jpeg?w=1080");
     background-position: 50% 0 !important;
     @media screen and (max-width: 766px) {
         background-position: 32% 100% !important;
@@ -238,7 +238,7 @@ p {
 }
 
 .section-img-inner.samp5 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/06/15/penjaga-palang-pintu-rel-kereta-api-krl-4.jpeg?w=1080");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/08/02/kaset-gen-z-4.jpeg?w=1080");
     @media screen and (max-width: 766px) {
         background-position: 10% 50% !important;
     }
@@ -246,26 +246,26 @@ p {
 
 .section-img-inner.samp6 {
     background-position: 50% 12% !important;
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/06/15/penjaga-palang-pintu-rel-kereta-api-krl-5.jpeg?w=1080");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/08/02/kaset-gen-z-klasik.jpeg?w=1080");
 }
 
 .section-img-inner.samp7 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/06/15/penjaga-palang-pintu-rel-kereta-api-krl-6.jpeg?w=1080");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/08/02/kaset-gen-z-klasik-1.jpeg?w=1080");
     @media screen and (max-width: 766px) {
         background-position: 20% 50% !important;
     }
 }
 
 .section-img-inner.samp8 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/06/15/penjaga-palang-pintu-rel-kereta-api-krl-7.jpeg?w=1080");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/08/02/kaset-gen-z-klasik-2.jpeg?w=1080");
     background-position: 75% 5% !important;
     @media screen and (max-width: 766px) {
-        background-position: 24% 5% !important;
+        background-posizzzztion: 24% 5% !important;
     }
 }
 
 .section-img-inner.samp9 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/06/15/penjaga-palang-pintu-rel-kereta-api-krl-8.jpeg?w=1080");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/08/02/kaset-gen-z-klasik-3.jpeg?w=1080");
     @media screen and (max-width: 766px) {
         background-position: 15% 5% !important;
     }
@@ -644,10 +644,10 @@ p {
     // text-align: center;
     h2 {
         font-weight: bold;
-        font-size: 30px;
+        font-size: 3rem;
         text-shadow: 2px 2px black;
         text-align: center;
-        font-family: 'Poppins';
+        font-family: 'Russo One';
         @media screen and (min-width: 1440px) {
             font-size: 45px;
         }
