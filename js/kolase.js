@@ -9,5 +9,7 @@ $('[data-fancybox="gallery"]').fancybox({
       "close"
     ],
     loop: true,
+    transitionEffect: 'fade',
+    transitionDuration: 500,
     protect: true
   });
