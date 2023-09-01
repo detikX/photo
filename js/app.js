@@ -27,6 +27,8 @@ $(".close-info").click(() => {
     $(".information").fadeOut()
 })
 
+ new WOW().init();
+
 
 
 const pauseVar = "fa-pause-circle";
