@@ -998,6 +998,10 @@ p {
     @media screen and (max-width:766px) {
         min-height: 170vh;
     }
+
+    @media screen and (orientation:landscape) {
+        min-height: 300vh;
+        }
     p {
         color: #c7c7c7;
     }
