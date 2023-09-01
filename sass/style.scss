@@ -644,7 +644,7 @@ p {
         // bottom: 16px;
         width: 100%;
         margin-bottom: 12px;
-        bottom: 20%;
+        bottom: 50%;
         // border: 1px solid;
     }
     // text-align: center;
@@ -993,6 +993,6 @@ p {
 .pertama {
     min-height: 250vh;
     @media screen and (max-width:766px) {
-        min-height: 150vh;
+        min-height: 180vh;
     }
 }
