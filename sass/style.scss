@@ -999,9 +999,10 @@ p {
         min-height: 170vh;
     }
 
-    @media screen and (orientation:landscape) {
+    @media screen and (min-device-width: 767px) and (max-device-width: 800px) { 
+        /* STYLES HERE */
         min-height: 300vh;
-        }
+    }
     p {
         color: #c7c7c7;
     }
