@@ -65,3 +65,14 @@ btns.forEach((btn) => {
 setTimeout(() => {
   $("#play-button").click()
 }, 500);
+
+$("#tops").css({
+    "position": "relative",
+    "z-index": 33,
+    "cursor":"pointer"
+})
+$("#tops").click(function(){
+    
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+  
+})

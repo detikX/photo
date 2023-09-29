@@ -439,7 +439,7 @@ p {
     // padding: 32px;
     height: 100vh;
     position: relative;
-    z-index: 101;
+    z-index: 102;
     &.d-block {
         height: 100% !important;
     }
@@ -1010,5 +1010,14 @@ p {
     }
     p {
         color: #c7c7c7;
+    }
+}
+
+#tops {
+    width: fit-content;
+    margin: 0 auto;
+    &:hover {
+        transition: .3s;
+        color: orange;
     }
 }
