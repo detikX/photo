@@ -277,6 +277,29 @@ p {
     }
 }
 
+.progress-bars {
+    position: absolute;
+    top: 0;
+    color: black;
+    left: 0;
+    width: 100%;
+  }
+  
+  .progress-bars-inner {
+    position: relative;
+    width: 0%;
+    // padding: 0;
+    background-color: #fec800;
+    color: transparent;
+    // font-size: 6px;
+    font-weight: 700;
+    height: 5px;
+    // padding: 0px;
+    text-align: center;
+  }
+
+  
+
 .section-img-inner.samp9 {
     background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/11/17/terminal-blok-m-yang-melegenda-8.jpeg?w=1920");
     @media screen and (max-width: 766px) {
