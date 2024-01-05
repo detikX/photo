@@ -1011,6 +1011,10 @@ p {
         min-height: 180vh;
     }
 
+    @media screen and (min-device-width: 700px) and (max-device-width: 799px) { 
+        margin-top: 50vh;
+    }
+
     @media screen and (min-device-width: 800px) and (max-device-width: 900px) { 
         /* STYLES HERE */
         min-height: 200vh;
