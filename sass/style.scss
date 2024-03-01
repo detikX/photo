@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=DM+Sans:wght@400;700&family=DM+Serif+Display&family=Quicksand&family=Rubik&family=Montserrat:wght@400;700&family=Paytone+One&family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Sans:wght@400;700&family=DM+Serif+Display&family=Quicksand&family=Rubik&family=Montserrat:wght@400;700&family=Paytone+One&family=Poppins:wght@400;600&display=swap");
 // main {
 //     font-family: 'Poppins';
 // }
-@import 'galeri';
+@import "galeri";
 main,
 body,
 div,
 p {
-    font-family: 'Rubik'
+    font-family: "Rubik";
 }
 
 .background {
@@ -102,7 +102,7 @@ p {
         left: initial;
         font-size: 22px;
     }
-    @media screen and (max-width:766px) {
+    @media screen and (max-width: 766px) {
         position: absolute;
         bottom: 25px;
         color: white;
@@ -125,11 +125,11 @@ p {
     font-size: 12px;
     width: 320px;
     text-align: center;
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0, 0.8);
     @media screen and (min-width: 1440px) {
         font-size: 16px;
     }
-    @media screen and (max-width:766px) {
+    @media screen and (max-width: 766px) {
         font-size: 12px;
     }
 }
@@ -154,14 +154,14 @@ p {
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-    @media screen and (max-width:766px) {
+    @media screen and (max-width: 766px) {
         height: 100%;
     }
     a {
         color: rgb(196, 100, 36);
         font-weight: bold;
     }
-    @media screen and (max-width:766px) {
+    @media screen and (max-width: 766px) {
         right: initial !important;
     }
     .section-text {
@@ -180,12 +180,12 @@ p {
             @media screen and (max-width: 766px) {
                 font-size: 13px;
             }
-            @media screen and (min-width:1440px) {
+            @media screen and (min-width: 1440px) {
                 font-size: 20px;
                 margin-bottom: 16px;
             }
         }
-        @media screen and (max-width:766px) {
+        @media screen and (max-width: 766px) {
             width: 100%;
             right: initial !important;
             // background: red;
@@ -205,27 +205,30 @@ p {
     background-position: 100% 100%;
     filter: blur(30px);
     opacity: 0;
-    transition: 0.6s ease, opacity 0.6s ease, background-position 0.8s ease;
+    transition:
+        0.6s ease,
+        opacity 0.6s ease,
+        background-position 0.8s ease;
 }
 
 .section-img-inner.samp1 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/01/05/dilematik-sampah-plastik.jpeg?w=1920");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/03/01/balada-manusia-gerobak.jpeg?w=1920");
     background-position: 50% 100% !important;
-    @media screen and (max-width:766px) {
+    @media screen and (max-width: 766px) {
         background-position: 25% 100% !important;
     }
 }
 
 .section-img-inner.samp2 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/01/05/dilematik-sampah-plastik-1.jpeg?w=1920");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/03/01/balada-manusia-gerobak-1.jpeg?w=1920");
     background-position: 50% 15% !important;
-    @media screen and (max-width:766px) {
+    @media screen and (max-width: 766px) {
         background-position: 70% 100% !important;
     }
 }
 
 .section-img-inner.samp3 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/01/05/dilematik-sampah-plastik-2.jpeg?w=1920");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/03/01/balada-manusia-gerobak-2.jpeg?w=1920");
     // background-position: 50% 0 !important;
     @media screen and (max-width: 766px) {
         background-position: 30% 50% !important;
@@ -240,7 +243,7 @@ p {
 }
 
 .section-img-inner.samp4 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/01/05/dilematik-sampah-plastik-3.jpeg?w=1920");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/03/01/balada-manusia-gerobak-3.jpeg?w=1920");
     background-position: 50% 0 !important;
     @media screen and (max-width: 766px) {
         background-position: 75% 100% !important;
@@ -248,7 +251,7 @@ p {
 }
 
 .section-img-inner.samp5 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/01/05/dilematik-sampah-plastik-4.jpeg?w=1920");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/03/01/balada-manusia-gerobak-4.jpeg?w=1920");
     @media screen and (max-width: 766px) {
         background-position: 35% 50% !important;
     }
@@ -256,21 +259,21 @@ p {
 
 .section-img-inner.samp6 {
     background-position: 50% 12%;
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/01/05/dilematik-sampah-plastik-5.jpeg?w=1920");
-    @media screen and (max-width:766px) {
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/03/01/balada-manusia-gerobak-5.jpeg?w=1920");
+    @media screen and (max-width: 766px) {
         background-position: 24% 12% !important;
     }
 }
 
 .section-img-inner.samp7 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/01/05/dilematik-sampah-plastik-6.jpeg?w=1920");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/03/01/balada-manusia-gerobak-6.jpeg?w=1920");
     @media screen and (max-width: 766px) {
         background-position: 60% 50% !important;
     }
 }
 
 .section-img-inner.samp8 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/01/05/dilematik-sampah-plastik-7.jpeg?w=1920");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/03/01/balada-manusia-gerobak-7.jpeg?w=1920");
     background-position: 75% 5% !important;
     @media screen and (max-width: 766px) {
         background-position: 60% 5% !important;
@@ -278,7 +281,7 @@ p {
 }
 
 .section-img-inner.samp9 {
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/01/05/dilematik-sampah-plastik-8.jpeg?w=1920");
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/03/01/balada-manusia-gerobak-8.jpeg?w=1920");
     @media screen and (max-width: 766px) {
         background-position: 8% 5% !important;
     }
@@ -351,11 +354,12 @@ p {
     cursor: pointer;
     font-size: 18px;
     // padding: 3px;
-    transition: .3s;
+    transition: 0.3s;
     i {
         // padding: 4px;
         // font-size: 18px;
-        @media screen and (max-width: 766px) {}
+        @media screen and (max-width: 766px) {
+        }
         @media screen and (min-width: 1440px) {
             font-size: 22px;
             padding-top: 2px;
@@ -384,7 +388,7 @@ p {
 //   font-size: 3vw;
 //   margin-bottom: 0.5em;
 // }
-.section>* {
+.section > * {
     // width: 50%;
 }
 
@@ -410,7 +414,7 @@ p {
             color: white;
             z-index: 99;
             // color: #fff;
-            background: rgba($color: #000000, $alpha: .6);
+            background: rgba($color: #000000, $alpha: 0.6);
             // backdrop-filter: blur(8px);
             max-width: 320px;
             // text-shadow: 1px 1px black;
@@ -424,7 +428,7 @@ p {
                 bottom: 74px;
                 width: fit-content;
             }
-            @media screen and (min-width:1440px) {
+            @media screen and (min-width: 1440px) {
                 bottom: 116px;
                 font-size: 20px;
             }
@@ -444,7 +448,7 @@ p {
     min-height: 100vh;
     position: relative;
     z-index: 102;
-    @media screen and (max-width:766px) {
+    @media screen and (max-width: 766px) {
         min-height: 50vh;
     }
     &.d-block {
@@ -462,17 +466,17 @@ p {
         }
     }
     .thumb {
-        width: 22vw;
+        width: 30%;
         margin: 8px 0px;
         height: 360px;
         display: inline-block;
         position: relative;
         margin-bottom: 8px;
         @media screen and (min-width: 1800px) {
-            width: 25vw;
+            width: 30%;
             height: 420px;
         }
-        @media screen and (max-width:766px) {
+        @media screen and (max-width: 766px) {
             width: 80%;
             margin: 0 auto;
             height: 300px;
@@ -496,9 +500,9 @@ p {
             left: 0;
             z-index: 9;
             background: linear-gradient(to top, black, transparent);
-            transition: .2s;
+            transition: 0.2s;
             &:hover {
-                opacity: .4;
+                opacity: 0.4;
             }
         }
         .namax {
@@ -622,79 +626,6 @@ p {
     }
 }
 
-.info_ {
-    position: absolute;
-    display: block;
-    bottom: 15%;
-    @media screen and (min-width: 1440px) {
-        bottom: 17%;
-    }
-    @media screen and (max-width:766px) {
-        position: absolute;
-        display: block;
-        bottom: 15%;
-        left: 49%;
-        color: #fff;
-        z-index: 999;
-        margin: 0 auto;
-        transform: translate(-50%, -15%);
-        width: 75%;
-    }
-    left: 50%;
-    // width: 100%;
-    color: #fff;
-    z-index: 999;
-    margin: 0 auto;
-    transform: translate(-50%,
-    -15%);
-    width: fit-content;
-    // @media screen and (max-width: 766px) {
-    //   // bottom: 16px;
-    //   width: 100%;
-    //   margin-bottom: 12px;
-    //   bottom: 10%;
-    //   // border: 1px solid;
-    // }
-    @media screen and (max-width: 739px) {
-        // bottom: 16px;
-        width: 100%;
-        margin-bottom: 12px;
-        bottom: 15%;
-        // border: 1px solid;
-    }
-    // text-align: center;
-    h2 {
-        font-weight: bold;
-        font-size: 3rem;
-        // text-shadow: 2px 2px black;
-        // text-shadow:  -1px -1px 0 #000,  
-        // 1px -1px 0 #000,
-        // -1px 1px 0 #000,
-        //  1px 1px 0 #000;;
-        filter: drop-shadow(2px 4px 6px black);
-        text-align: center;
-        line-height: 2.7rem;
-        font-family: 'Paytone One';
-        @media screen and (min-width: 1440px) {
-            font-size: 45px;
-        }
-        @media screen and (min-device-width: 700px) and (max-device-width: 860px) { 
-            font-size: 1.8rem;
-            line-height: 1.8rem;
-        }
-    
-        @media screen and (max-width: 766px) {
-            font-size: 1.7rem;
-            line-height: 1.7rem;
-            margin: 0 8px;
-            text-align: center;
-        }
-    }
-    // background: rgba(0, 0, 0, 0.6);
-    // padding: 4px 0;
-    // }
-}
-
 .isdesktop {
     display: block;
     @media screen and (max-width: 766px) {
@@ -718,7 +649,7 @@ p {
 }
 
 .btn-modal {
-    background: rgba($color: #fff, $alpha: .5);
+    background: rgba($color: #fff, $alpha: 0.5);
     position: relative;
     z-index: 99;
     font-weight: 700;
@@ -727,52 +658,8 @@ p {
     &:focus,
     &:hover {
         box-shadow: none;
-        background: rgba($color: #000000, $alpha: .5);
+        background: rgba($color: #000000, $alpha: 0.5);
         color: white;
-    }
-}
-
-.creator {
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translate(-50%, 0%);
-    @media screen and (min-width: 1440px) {
-        transform: translate(-50%, -15%);
-    }
-    @media screen and (max-width:766px) {
-        transform: translate(-50%, -50%);
-    }
-    width: auto;
-    text-align: center;
-    color: #fafafa;
-    // bottom: 240px;
-    font-weight: bold;
-    // background: rgba($color: #000000, $alpha: 0.3);
-    padding: 8px;
-    // text-shadow: 2px 2px #000;
-    z-index: 999;
-    // border: 2px solid;
-    // &:after {
-    //   content: '';
-    //   border: 2px solid red;
-    //   width: 80%;
-    // }
-    span,
-    div {
-        // color: #c3e6ff;
-        // border-bottom: 1px solid;
-        /* text-shadow: 1px 1px white; */
-        font-size: 15px;
-        @media screen and (min-width: 1440px) {
-            font-size: 18px;
-        }
-        @media screen and (max-width: 766px) {
-            // bottom: 120px;
-            // width: 255px;
-            // left: 8px;
-            font-size: 14px;
-        }
     }
 }
 
@@ -894,7 +781,8 @@ p {
 }
 
 .othersx {
-    .thumb {}
+    .thumb {
+    }
 }
 
 .containerx {
@@ -917,9 +805,9 @@ p {
         padding: 4px;
         color: white;
         max-width: 320px;
-        background: rgba($color: #000000, $alpha: .5);
+        background: rgba($color: #000000, $alpha: 0.5);
         @media screen and (max-width: 766px) {
-            background: rgba($color: #000000, $alpha: .5);
+            background: rgba($color: #000000, $alpha: 0.5);
             width: 50vw;
             font-size: 11px;
         }
@@ -1018,16 +906,16 @@ p {
 
 .pertama {
     min-height: 200vh;
-    @media screen and (max-width:766px) {
+    @media screen and (max-width: 766px) {
         min-height: 180vh;
         margin-top: 30vh;
     }
 
-    @media screen and (min-device-width: 700px) and (max-device-width: 799px) { 
+    @media screen and (min-device-width: 700px) and (max-device-width: 799px) {
         margin-top: 50vh;
     }
 
-    @media screen and (min-device-width: 800px) and (max-device-width: 900px) { 
+    @media screen and (min-device-width: 800px) and (max-device-width: 900px) {
         /* STYLES HERE */
         min-height: 200vh;
     }
@@ -1040,15 +928,138 @@ p {
     width: fit-content;
     margin: 0 auto;
     &:hover {
-        transition: .3s;
+        transition: 0.3s;
         color: orange;
     }
 }
 
 .min-auto {
     min-height: 30vh !important;
-    @media screen and (max-width:768px) {
-        
-        min-height: 20vh!important;
+    @media screen and (max-width: 768px) {
+        min-height: 20vh !important;
+    }
+}
+
+.credit-points {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+
+    .info_ {
+        position: absolute;
+        display: block;
+        bottom: 15%;
+        @media screen and (min-width: 1440px) {
+            bottom: 17%;
+        }
+        @media screen and (max-width: 766px) {
+            position: absolute;
+            display: block;
+            bottom: 15%;
+            left: 50%;
+            color: #fff;
+            z-index: 999;
+            margin: 0 auto;
+            transform: translate(-50%, -200%);
+            width: 75%;
+        }
+        left: 50%;
+        // width: 100%;
+        color: #fff;
+        z-index: 999;
+        margin: 0 auto;
+        transform: translate(-50%, -100%);
+        width: 100%;
+        // @media screen and (max-width: 766px) {
+        //   // bottom: 16px;
+        //   width: 100%;
+        //   margin-bottom: 12px;
+        //   bottom: 10%;
+        //   // border: 1px solid;
+        // }
+        @media screen and (max-width: 739px) {
+            // bottom: 16px;
+            width: 100%;
+            margin-bottom: 12px;
+            bottom: 15%;
+            // border: 1px solid;
+        }
+        // text-align: center;
+        h2 {
+            font-weight: bold;
+            font-size: 3rem;
+            // text-shadow: 2px 2px black;
+            // text-shadow:  -1px -1px 0 #000,
+            // 1px -1px 0 #000,
+            // -1px 1px 0 #000,
+            //  1px 1px 0 #000;;
+            filter: drop-shadow(2px 4px 6px black);
+            text-align: center;
+            line-height: 2.7rem;
+            font-family: "DM Sans";
+            @media screen and (min-width: 1440px) {
+                font-size: 45px;
+            }
+            @media screen and (min-device-width: 700px) and (max-device-width: 860px) {
+                font-size: 1.8rem;
+                line-height: 1.8rem;
+            }
+
+            @media screen and (max-width: 766px) {
+                font-size: 1.7rem;
+                line-height: 1.7rem;
+                margin: 0 8px;
+                text-align: center;
+            }
+        }
+        // background: rgba(0, 0, 0, 0.6);
+        // padding: 4px 0;
+        // }
+    }
+
+    .creator {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 0%);
+        @media screen and (min-width: 1440px) {
+            transform: translate(-50%, -15%);
+        }
+        @media screen and (max-width: 766px) {
+            transform: translate(-50%, 0%);
+        }
+        width: auto;
+        text-align: center;
+        color: #fafafa;
+        // bottom: 240px;
+        font-weight: bold;
+        // background: rgba($color: #000000, $alpha: 0.3);
+        padding: 8px;
+        // text-shadow: 2px 2px #000;
+        z-index: 999;
+        // border: 2px solid;
+        // &:after {
+        //   content: '';
+        //   border: 2px solid red;
+        //   width: 80%;
+        // }
+        span,
+        div {
+            // color: #c3e6ff;
+            // border-bottom: 1px solid;
+            /* text-shadow: 1px 1px white; */
+            font-size: 15px;
+            @media screen and (min-width: 1440px) {
+                font-size: 18px;
+            }
+            @media screen and (max-width: 766px) {
+                // bottom: 120px;
+                // width: 255px;
+                // left: 8px;
+                font-size: 14px;
+            }
+        }
     }
 }
