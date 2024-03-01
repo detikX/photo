@@ -178,7 +178,7 @@ p {
             // font-size: 14px;
             margin-bottom: 16px;
             @media screen and (max-width: 766px) {
-                font-size: 13px;
+                font-size: 0.9rem;
             }
             @media screen and (min-width: 1440px) {
                 font-size: 20px;
@@ -907,7 +907,7 @@ p {
 .pertama {
     min-height: 200vh;
     @media screen and (max-width: 766px) {
-        min-height: 150vh;
+        min-height: 180vh;
         margin-top: 30vh;
     }
 
