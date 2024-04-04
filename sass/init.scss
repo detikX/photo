@@ -86,19 +86,6 @@ main {
     color: gray;
   }
 }
-.firstletter {
-  &::first-letter {
-    float: left;
-    font-weight: bold;
-    margin-right: 8px;
-    font-size: 60px;
-    font-size: 6rem;
-    line-height: 40px;
-    line-height: 4rem;
-    height: 4rem;
-    text-transform: uppercase;
-  }
-}
 
 .title {
   &-h1 {
@@ -124,10 +111,8 @@ main {
     right: 0;
   }
   &.text-pop-up-top {
-    -webkit-animation: text-pop-up-top 2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-      infinite alternate both;
-    animation: text-pop-up-top 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite
-      alternate both;
+    -webkit-animation: text-pop-up-top 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite alternate both;
+    animation: text-pop-up-top 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite alternate both;
   }
   @-webkit-keyframes text-pop-up-top {
     0% {
@@ -142,8 +127,16 @@ main {
       transform: translateY(-50px);
       -webkit-transform-origin: 50% 50%;
       transform-origin: 50% 50%;
-      text-shadow: 0 1px 0 #444, 0 2px 0 #444, 0 3px 0 #444, 0 4px 0 #444,
-        0 5px 0 #444, 0 6px 0 #444, 0 7px 0 #444, 0 8px 0 #444, 0 9px 0 #444,
+      text-shadow:
+        0 1px 0 #444,
+        0 2px 0 #444,
+        0 3px 0 #444,
+        0 4px 0 #444,
+        0 5px 0 #444,
+        0 6px 0 #444,
+        0 7px 0 #444,
+        0 8px 0 #444,
+        0 9px 0 #444,
         0 50px 30px rgba(0, 0, 0, 0.3);
     }
   }
@@ -160,8 +153,16 @@ main {
       transform: translateY(-50px);
       -webkit-transform-origin: 50% 50%;
       transform-origin: 50% 50%;
-      text-shadow: 0 1px 0 #444, 0 2px 0 #444, 0 3px 0 #444, 0 4px 0 #444,
-        0 5px 0 #444, 0 6px 0 #444, 0 7px 0 #444, 0 8px 0 #444, 0 9px 0 #444,
+      text-shadow:
+        0 1px 0 #444,
+        0 2px 0 #444,
+        0 3px 0 #444,
+        0 4px 0 #444,
+        0 5px 0 #444,
+        0 6px 0 #444,
+        0 7px 0 #444,
+        0 8px 0 #444,
+        0 9px 0 #444,
         0 50px 30px rgba(0, 0, 0, 0.3);
     }
   }
@@ -201,29 +202,28 @@ main {
 .slick-next:before,
 .slick-prev:before {
   font-family: "FontAwesome";
-    font-size: 24px;
-    text-align: center;
-    color: #fff;
-    opacity: 1;
-    @media screen and (min-width:1440px) {
-      font-size: 45px;
-    }
-    @media screen and (max-width:766px) {
-      font-size: 20px;
-    }
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  opacity: 1;
+  @media screen and (min-width: 1440px) {
+    font-size: 45px;
+  }
+  @media screen and (max-width: 766px) {
+    font-size: 20px;
+  }
 }
 .slick-next {
   &:before {
     content: "\f054";
-    
   }
   left: initial;
   right: 20px;
   z-index: 1;
   top: initial;
   bottom: 12px;
-  background-color: rgba(0,0,0,.4);
-  @media screen and (min-width:1440px) {
+  background-color: rgba(0, 0, 0, 0.4);
+  @media screen and (min-width: 1440px) {
     bottom: 50px;
   }
 }
@@ -232,13 +232,13 @@ main {
   &::before {
     content: "\f053";
   }
-  background-color: rgba(0,0,0,.4);
+  background-color: rgba(0, 0, 0, 0.4);
   right: 100px;
   left: initial;
   z-index: 1;
   top: initial;
   bottom: 12px;
-  @media screen and (min-width:1440px) {
+  @media screen and (min-width: 1440px) {
     bottom: 50px;
   }
 }
