@@ -55,7 +55,7 @@
       z-index: 4;
       font-size: 14px;
       margin-bottom: 0;
-      @media screen and (min-width:1440px) {
+      @media screen and (min-width: 1440px) {
         font-size: 20px;
       }
       @media screen and (max-width: 766px) {
@@ -73,19 +73,19 @@
   z-index: 80;
   color: white;
   transform: translate(-50%, 0%);
-    left: 50%;
+  left: 50%;
   font-size: 14px;
-  @media screen and (min-width:1440px) {
+  @media screen and (min-width: 1440px) {
     right: 180px;
     position: absolute;
     bottom: 57px;
     z-index: 80;
     color: #fff;
-    transform:initial;
+    transform: initial;
     left: initial;
     font-size: 22px;
   }
-  @media screen and (max-width:766px) {
+  @media screen and (max-width: 766px) {
     position: absolute;
     bottom: 25px;
     color: white;
@@ -101,17 +101,17 @@
   bottom: 10%;
   padding: 8px 0;
   left: 50%;
-  transform: translate(-50%,50%);
+  transform: translate(-50%, 50%);
   color: white;
   z-index: 99;
   font-size: 12px;
   width: 320px;
   text-align: center;
-  background: rgba(0,0,0,.8);
-  @media screen and (min-width:1440px) {
+  background: rgba(0, 0, 0, 0.8);
+  @media screen and (min-width: 1440px) {
     font-size: 16px;
   }
-  @media screen and (max-width:766px) {
+  @media screen and (max-width: 766px) {
     font-size: 12px;
   }
 }
@@ -119,46 +119,72 @@
   position: relative;
   display: flex;
 }
+.help-width {
+  margin: 0 auto;
+  width: 720px;
+  @media screen and (max-width: 768px) {
+    width: auto;
+  }
+}
 .helpx {
   width: 100% !important;
   z-index: 90;
   right: initial !important;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
   a {
     color: rgb(196, 100, 36);
     font-weight: bold;
   }
-  @media screen and (max-width:766px) {
+  @media screen and (max-width: 766px) {
     right: initial !important;
   }
   .section-text {
     margin: 0 auto;
     // text-align: center;
     // width: 50%;
-    max-width: 80%;
-    padding: 32px;
+    max-width: 90%;
+    padding: 4px;
     display: block;
-    @media screen and (min-width:1440px) {
+    @media screen and (min-width: 1440px) {
       width: 50%;
     }
     p {
       font-size: 16px;
       margin-bottom: 16px;
-      @media screen and (max-width:766px) {
+      @media screen and (max-width: 766px) {
         font-size: 15px;
       }
-      @media screen and (min-width:1440px) {
+      @media screen and (min-width: 1440px) {
         font-size: 20px;
         margin-bottom: 16px;
       }
     }
-    @media screen and (max-width:766px) {
+    @media screen and (max-width: 766px) {
       width: 100%;
       right: initial !important;
       // background: red;
     }
+  }
+}
+.pertama {
+  min-height: 200vh;
+  @media screen and (max-width: 766px) {
+    min-height: 250vh;
+    margin-top: 30vh;
+  }
+
+  @media screen and (min-device-width: 700px) and (max-device-width: 799px) {
+    margin-top: 50vh;
+  }
+
+  @media screen and (min-device-width: 800px) and (max-device-width: 900px) {
+    /* STYLES HERE */
+    min-height: 200vh;
+  }
+  p {
+    color: #c7c7c7;
   }
 }
 .section-img-inner {
@@ -173,53 +199,59 @@
   background-position: 100% 100%;
   filter: blur(30px);
   opacity: 0;
-  transition: 0.6s ease, opacity 0.6s ease, background-position 0.8s ease;
+  transition:
+    0.6s ease,
+    opacity 0.6s ease,
+    background-position 0.8s ease;
 }
 .section-img-inner.samp1 {
-  background-image: url("../img/1.jpg");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/04/05/menilik-pasar-tasik-yang-unik.jpeg?w=1080");
 }
 .section-img-inner.samp2 {
-  background-image: url("../img/2.jpg");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/04/05/menilik-pasar-tasik-yang-unik-1.jpeg?w=1080");
   background-position: 50% 15% !important;
 }
 .section-img-inner.samp3 {
-  background-image: url("../img/3.jpg");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/04/05/menilik-pasar-tasik-yang-unik-2.jpeg?w=1080");
   // background-position: 50% 0 !important;
+  @media screen and (max-width: 768px) {
+    background-position: 95% 30% !important;
+  }
 }
 .section-img-inner.samp33 {
   background: #000;
-  // background-image: url("../img/1.jpeg");
+  // background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/04/05/menilik-pasar-tasik-yang-unik-1.jpe?w=1080g");
   // filter: blur(24px) !important;
   background-position: 50% 0 !important;
 }
 .section-img-inner.samp4 {
-  background-image: url("../img/4.jpg");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/04/05/menilik-pasar-tasik-yang-unik-3.jpeg?w=1080");
   background-position: 50% 0 !important;
 }
 .section-img-inner.samp5 {
-  background-image: url("../img/5.jpg");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/04/05/menilik-pasar-tasik-yang-unik-4.jpeg?w=1080");
 }
 .section-img-inner.samp6 {
   background-position: 50% 12% !important;
-  background-image: url("../img/6.jpg");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/04/05/menilik-pasar-tasik-yang-unik-5.jpeg?w=1080");
 }
 .section-img-inner.samp7 {
-  background-image: url("../img/7.jpg");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/04/05/menilik-pasar-tasik-yang-unik-6.jpeg?w=1080");
 }
 .section-img-inner.samp8 {
-  background-image: url("../img/8.jpg");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/04/05/menilik-pasar-tasik-yang-unik-7.jpeg?w=1080");
 }
 .section-img-inner.samp9 {
-  background-image: url("../img/9.jpg");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/04/05/menilik-pasar-tasik-yang-unik-8.jpeg?w=1080");
 }
 .section-img-inner.samp10 {
-  background-image: url("../img/10.jpg");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/04/05/menilik-pasar-tasik-yang-unik-9.jp?w=1080g");
 }
 .section-img-inner.samp11 {
-  background-image: url("../img/11.jpg");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/04/05/menilik-pasar-tasik-yang-unik-10.jp?w=1080g");
 }
 .section-img-inner.samp12 {
-  background-image: url("../img/11.jpg");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/04/05/menilik-pasar-tasik-yang-unik-11.jp?w=1080g");
 }
 .section-body {
   display: block;
@@ -228,7 +260,7 @@
   order: 2;
   position: absolute;
   margin-right: 16px;
-  width: auto ;
+  width: auto;
   right: 16px;
   bottom: 16px;
 
@@ -238,36 +270,36 @@
   }
 
   @media screen and (max-width: 766px) {
-    width: 50% ;
+    width: 50%;
   }
 }
 
 .close-info {
   position: absolute;
-    top: -16px;
-    right: -8px;
-    background: white;
-    color: black;
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 18px;
-    // padding: 3px;
-    transition: .3s;
-    i {
-      // padding: 4px;
-      // font-size: 18px;
-      @media screen and (max-width:766px) {
-      }
-      @media screen and (min-width:1440px) {
-        font-size: 22px;
-        padding-top: 2px;
-      }
+  top: -16px;
+  right: -8px;
+  background: white;
+  color: black;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  // padding: 3px;
+  transition: 0.3s;
+  i {
+    // padding: 4px;
+    // font-size: 18px;
+    @media screen and (max-width: 766px) {
     }
-    &:hover {
-      background: #ccc;
+    @media screen and (min-width: 1440px) {
+      font-size: 22px;
+      padding-top: 2px;
     }
+  }
+  &:hover {
+    background: #ccc;
+  }
 }
 .slick-dotted.slick-slider {
   margin-bottom: 0;
@@ -295,12 +327,16 @@
   .full-page {
     position: relative;
     width: 100%;
+    background: black;
     .image {
       height: 100vh;
       img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        @media screen and (max-width: 768px) {
+          object-fit: contain;
+        }
       }
     }
     .content {
@@ -318,16 +354,16 @@
       // font-size: 14px;
       // text-align: right;
       // bottom: 74px;
-      @media screen and (max-width:766px) {
+      @media screen and (max-width: 766px) {
         bottom: 74px;
+        font-size: 14px;
         width: fit-content;
-        
       }
-      @media screen and (min-width:1440px) {
+      @media screen and (min-width: 1440px) {
         bottom: 116px;
         font-size: 20px;
       }
-      &.leftx{
+      &.leftx {
         text-align: left;
         right: initial;
         left: 24px;
@@ -342,7 +378,7 @@
   height: 100vh;
   position: relative;
   z-index: 101;
-  
+
   .detikx {
     width: 120px !important;
   }
@@ -447,10 +483,10 @@
   position: absolute;
   display: block;
   bottom: 18%;
-  @media screen and (min-width:1440px) {
-    bottom: 17%;  
+  @media screen and (min-width: 1440px) {
+    bottom: 17%;
   }
-  
+
   left: 50%;
   width: 100%;
   color: #fff;
@@ -476,7 +512,7 @@
     font-weight: bold;
     font-size: 30px;
     text-shadow: 2px 2px black;
-    @media screen and (min-width:1440px) {
+    @media screen and (min-width: 1440px) {
       font-size: 45px;
     }
     @media screen and (max-width: 766px) {
@@ -512,26 +548,27 @@
 }
 
 .btn-modal {
-  background: rgba($color: #fff, $alpha: .5);
-    position: relative;
-    z-index: 99;
-    font-weight: 700;
-    // font-weight: 700;
-    cursor: pointer;
-    &:focus,&:hover {
-      box-shadow: none;
-      background: rgba($color: #000000, $alpha: .5);
-      color: white;
-    }
+  background: rgba($color: #fff, $alpha: 0.5);
+  position: relative;
+  z-index: 99;
+  font-weight: 700;
+  // font-weight: 700;
+  cursor: pointer;
+  &:focus,
+  &:hover {
+    box-shadow: none;
+    background: rgba($color: #000000, $alpha: 0.5);
+    color: white;
+  }
 }
 
 .creator {
   position: absolute;
   left: 50%;
   bottom: 0;
-  transform: translate(-50%,0%);
-  @media screen and (min-width:1440px){
-    transform: translate(-50%,-15%);  
+  transform: translate(-50%, 0%);
+  @media screen and (min-width: 1440px) {
+    transform: translate(-50%, -15%);
   }
   width: auto;
   text-align: center;
@@ -548,12 +585,13 @@
   //   border: 2px solid red;
   //   width: 80%;
   // }
-  span,div {
+  span,
+  div {
     // color: #c3e6ff;
     // border-bottom: 1px solid;
     /* text-shadow: 1px 1px white; */
     font-size: 15px;
-    @media screen and (min-width:1440px) {
+    @media screen and (min-width: 1440px) {
       font-size: 18px;
     }
     @media screen and (max-width: 766px) {
@@ -563,9 +601,7 @@
       font-size: 14px;
     }
   }
-  
 }
-
 
 .sticky {
   position: fixed !important;
@@ -576,7 +612,7 @@
   @media screen and (max-width: 766px) {
     top: 40px;
   }
-} 
+}
 
 #play-button {
   position: relative;
@@ -627,10 +663,9 @@
   }
 }
 
-
 .alls {
   display: none;
-  @media screen and (max-width:739px) {
+  @media screen and (max-width: 739px) {
     display: block;
   }
   &__text {
@@ -639,7 +674,7 @@
     top: 54px;
     color: #fff;
     font-size: 12px;
-    transform: translate(-50%,50%);
+    transform: translate(-50%, 50%);
     text-align: center;
   }
 }
@@ -652,19 +687,34 @@
 }
 
 @keyframes rotate {
-  0% { -webkit-transform: rotate(0deg); }
-  20% { -webkit-transform: rotate(30deg); }
-  25% { -webkit-transform: rotate(40deg); }
-  45% { -webkit-transform: rotate(90deg); }
-  50% { -webkit-transform: rotate(90deg); }
-  70% { -webkit-transform: rotate(70deg); }
-  75% { -webkit-transform: rotate(30deg); }
-  100% { -webkit-transform: rotate(0deg); }
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  20% {
+    -webkit-transform: rotate(30deg);
+  }
+  25% {
+    -webkit-transform: rotate(40deg);
+  }
+  45% {
+    -webkit-transform: rotate(90deg);
+  }
+  50% {
+    -webkit-transform: rotate(90deg);
+  }
+  70% {
+    -webkit-transform: rotate(70deg);
+  }
+  75% {
+    -webkit-transform: rotate(30deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
 }
 
 .seven {
   img {
-    height: 125% !important;
+    // height: 125% !important;
   }
-  
 }
