@@ -37,7 +37,7 @@ $('.slider-pict').slick({
   dots: true,
   infinite: true,
   speed: 500,
-  fade: true,
+  fade: false,
   cssEase: 'linear',
   // customPaging: function (slider, i) {
   //     //FYI just have a look at the object to find available information
