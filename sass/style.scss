@@ -778,8 +778,8 @@
     text-align: center;
     font-size: 2.4rem;
     font-family: "Kanit";
-    color: #252525;
-    text-shadow: 2px 2px #fcfcfc;
+    color: #fcfcfc;
+    text-shadow: 2px 2px #252525;
     @media screen and (min-width: 1440px) {
       font-size: 45px;
     }
@@ -840,7 +840,7 @@
   }
   width: auto;
   text-align: center;
-  color: #252525;
+  color: #fcfcfc;
   // bottom: 240px;
   font-weight: bold;
   // background: rgba($color: #000000, $alpha: 0.3);
