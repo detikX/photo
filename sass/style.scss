@@ -795,12 +795,14 @@
     font-size: 2.4rem;
     font-family: "Kanit";
     color: #fcfcfc;
+    line-height: 2rem;
     text-shadow: 4px 4px 4px #252525;
     @media screen and (min-width: 1440px) {
       font-size: 45px;
     }
     @media screen and (max-width: 766px) {
       font-size: 36px;
+      line-height: 32px;
       text-align: center;
     }
   }
