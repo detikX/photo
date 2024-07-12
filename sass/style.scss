@@ -1021,5 +1021,42 @@
     font-family: "Source Code Pro" !important;
   }
 }
+.black {
+  background: black;
+  padding: 32px 0;
+  p {
+    color: white;
+  }
+}
+
+//slick
+.slick-next,
+.slick-prev {
+  // background: white;
+  width: 36px;
+  height: 36px;
+  // box-shadow: 1px 3px 2px #bbb;
+  border-radius: 50%;
+  &:hover,
+  &:focus {
+    color: orange;
+    outline: none;
+    // background: white;
+    background: black !important;
+  }
+}
+.slider-images {
+  position: relative;
+  z-index: 16;
+}
+.imagex {
+  width: 100%;
+  height: 100vh;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+  }
+}
 
 @import "galeri";

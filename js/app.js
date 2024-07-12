@@ -88,7 +88,7 @@ btns.forEach((btn) => {
   btn.addEventListener("click", onChange);
 });
 
-
+$('.slider-images').slick();
 setTimeout(() => {
   $("#play-button").click()
 }, 500);
