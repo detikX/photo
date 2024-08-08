@@ -218,10 +218,10 @@ main {
   &:before {
     content: "\f054";
   }
-  left: initial;
+  // left: initial;
   right: 20px;
   z-index: 1;
-  top: initial;
+  // top: initial;
   bottom: 12px;
   background-color: rgba(0, 0, 0, 0.4);
   @media screen and (min-width: 1440px) {
@@ -235,9 +235,9 @@ main {
   }
   background-color: rgba(0, 0, 0, 0.4);
   right: 100px;
-  left: initial;
+  left: 20px;
   z-index: 1;
-  top: initial;
+  // top: initial;
   bottom: 12px;
   @media screen and (min-width: 1440px) {
     bottom: 50px;

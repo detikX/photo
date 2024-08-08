@@ -194,7 +194,7 @@
   }
 
   @media screen and (min-device-width: 800px) and (max-device-width: 900px) {
-    min-height: 180vh;
+    min-height: 250vh;
   }
   p {
     color: #c7c7c7;
@@ -208,12 +208,14 @@
     min-height: 130vh;
   }
   @media screen and (min-device-width: 700px) and (max-device-width: 799px) {
-    min-height: 100vh;
+    min-height: 120vh;
     // margin-top: 50vh;
   }
 
   @media screen and (min-device-width: 800px) and (max-device-width: 900px) {
-    min-height: 100vh;
+    min-height: 120vh;
+    // background: yellow;
+    // top: 100px;
   }
   p {
     color: #c7c7c7;
@@ -1043,6 +1045,8 @@
 .black {
   background: black;
   padding: 120px 0;
+  position: relative;
+  z-index: 20;
   .lala-help {
     @media screen and (max-width: 768px) {
       width: 90%;
@@ -1052,6 +1056,9 @@
   p {
     color: white;
     font-size: 1.2rem;
+    @media screen and (max-width: 768px) {
+      font-size: 15px;
+    }
   }
 }
 
@@ -1059,8 +1066,8 @@
 .slick-next,
 .slick-prev {
   // background: white;
-  width: 36px;
-  height: 36px;
+  width: 56px;
+  height: 56px;
   // box-shadow: 1px 3px 2px #bbb;
   border-radius: 50%;
   &:hover,
