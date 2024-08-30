@@ -1070,7 +1070,7 @@
   height: 56px;
   // box-shadow: 1px 3px 2px #bbb;
   border-radius: 50%;
-  @media screen and (max-width:768px) {
+  @media screen and (max-width: 768px) {
     width: 36px;
     height: 36px;
   }
@@ -1101,22 +1101,22 @@
 
 .obj-contain {
   img {
-    @media screen and (max-width:768px) {
-      object-fit: contain !important;
-      
-    }
+    object-fit: contain !important;
   }
 }
 
 .text-slide {
   position: absolute;
   left: 50%;
-  top: 90%;
+  top: 93%;
   transform: translate(-50%, -50%);
   color: white;
-  width: 80%;
-  @media screen and (max-width:768px) {
+  width: fit-content;
+  text-align: center;
+  backdrop-filter: brightness(0.3);
+  padding: 8px;
+  @media screen and (max-width: 768px) {
+    width: 80%;
     top: 80%;
-    
   }
 }
