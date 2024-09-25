@@ -120,16 +120,16 @@
   display: flex;
   &.h-hundred {
     height: 100vh;
-    &::after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      width: 100%;
-      height: 50vh;
-      background: linear-gradient(to top, black, transparent);
-    }
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   bottom: 0;
+    //   right: 0;
+    //   left: 0;
+    //   width: 100%;
+    //   height: 50vh;
+    //   background: linear-gradient(to top, black, transparent);
+    // }
   }
   video {
     position: absolute;
@@ -221,14 +221,14 @@
   }
 }
 .pertama {
-  min-height: 200vh;
+  min-height: 150vh;
 
   @media screen and (max-width: 766px) {
     // margin-top: 30vh;
-    min-height: 200vh;
+    min-height: 150vh;
   }
   @media screen and (min-device-width: 700px) and (max-device-width: 799px) {
-    min-height: 200vh;
+    min-height: 150vh;
     // margin-top: 50vh;
   }
 
