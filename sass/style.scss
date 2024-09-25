@@ -267,12 +267,15 @@
 .section-img-inner.samp2 {
   background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/09/25/bkt-jadi-ladang-cuan-konten-kreator-1.jpeg?w=1080");
   background-position: 88% 15% !important;
+  @media screen and (max-width: 768px) {
+    background-position: 40% 15% !important;
+  }
 }
 .section-img-inner.samp3 {
   background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/09/25/bkt-jadi-ladang-cuan-konten-kreator-2.jpeg?w=1080");
   // background-position: 50% 0 !important;
   @media screen and (max-width: 768px) {
-    background-position: 20% 30% !important;
+    background-position: 46% 30% !important;
   }
 }
 .section-img-inner.samp33 {
@@ -285,7 +288,7 @@
   background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/09/25/bkt-jadi-ladang-cuan-konten-kreator-3.jpeg?w=1080");
   background-position: 50% 0 !important;
   @media screen and (max-width: 768px) {
-    background-position: 65% 0% !important;
+    background-position: 40% 0% !important;
   }
 }
 .section-img-inner.samp5 {
@@ -298,13 +301,13 @@
   background-position: 50% 12% !important;
   background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/09/25/bkt-jadi-ladang-cuan-konten-kreator-5.jpeg?w=1080");
   @media screen and (max-width: 768px) {
-    background-position: 48% 50% !important;
+    background-position: 65% 50% !important;
   }
 }
 .section-img-inner.samp7 {
   background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/09/25/bkt-jadi-ladang-cuan-konten-kreator-6.jpeg?w=1080");
   @media screen and (max-width: 768px) {
-    background-position: 56% 0 !important;
+    background-position: 73% 0 !important;
   }
 }
 .section-img-inner.samp8 {
