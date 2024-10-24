@@ -61,8 +61,11 @@
                 &-height {
                     &__odd {
                         height: 280px;
-                        margin: 2px;
+                        margin: 8px;
                         position: relative;
+                        @media screen and (max-width: 768px) {
+                            height: 220px;
+                        }
                         &::before {
                             content: "";
                             position: absolute;
@@ -95,8 +98,11 @@
 
                     &__even {
                         margin: 8px;
-                        height: 220px;
+                        height: 280px;
                         position: relative;
+                        @media screen and (max-width: 768px) {
+                            height: 220px;
+                        }
                         &::before {
                             content: "";
                             position: absolute;
