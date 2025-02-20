@@ -83,6 +83,9 @@ function onChange(event) {
   // You can also use .toggle function on classList as mentioned by the person in other answer
 }
 
+
+
+
 // query selector all returns a list of nodes, therefore we need to iterate over it and attach an event listener to each button seperatly
 btns.forEach((btn) => {
   btn.addEventListener("click", onChange);
