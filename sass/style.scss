@@ -6,6 +6,15 @@
   position: relative;
   z-index: 999;
 }
+
+.source-code {
+  text-align: center;
+  margin-bottom: 36px;
+  border-bottom: 1px dashed #fafafa;
+  p {
+    font-family: "Source Code Pro";
+  }
+}
 .background img {
   height: 100%;
   width: 100%;
@@ -232,7 +241,7 @@
   }
 }
 .pertama {
-  min-height: 150vh;
+  min-height: 220vh;
 
   @media screen and (max-width: 766px) {
     // margin-top: 30vh;
@@ -270,20 +279,20 @@
     background-position 0.8s ease;
 }
 .section-img-inner.samp1 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/01/31/menangguk-hoki-dari-kue-keranjang.jpeg?w=1080");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/02/20/wajah-abstrak-pekerja-metropolitan-1740034131680.jpeg?w=1080");
   @media screen and (max-width: 768px) {
     background-position: 8% 50% !important;
   }
 }
 .section-img-inner.samp2 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/01/31/menangguk-hoki-dari-kue-keranjang-1.jpeg?w=1080");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/02/20/wajah-abstrak-pekerja-metropolitan-1740034131758.jpeg?w=1080");
   background-position: 88% 15% !important;
   @media screen and (max-width: 768px) {
     background-position: 70% 15% !important;
   }
 }
 .section-img-inner.samp3 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/01/31/menangguk-hoki-dari-kue-keranjang-2.jpeg?w=1080");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/02/20/wajah-abstrak-pekerja-metropolitan-1740034131812.jpeg?w=1080");
   background-position: 50% 15% !important;
   @media screen and (max-width: 768px) {
     background-position: 50% 30% !important;
@@ -296,14 +305,14 @@
   background-position: 50% 0 !important;
 }
 .section-img-inner.samp4 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/01/31/menangguk-hoki-dari-kue-keranjang-3.jpeg?w=1080");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/02/20/wajah-abstrak-pekerja-metropolitan-1740034131871.jpeg?w=1080");
   background-position: 50% 50% !important;
   @media screen and (max-width: 768px) {
     background-position: 50% 0% !important;
   }
 }
 .section-img-inner.samp5 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/01/31/menangguk-hoki-dari-kue-keranjang-4.jpeg?w=1080");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/02/20/wajah-abstrak-pekerja-metropolitan-1740034131930.jpeg?w=1080");
   @media screen and (max-width: 768px) {
     background-position: 50% 50% !important;
   }
@@ -311,13 +320,13 @@
 // https://akcdn.detik.net.id/community/media/visual/2024/11/07/tunggu-aku-di-bkt-5.jpeg?w=1080
 .section-img-inner.samp6 {
   background-position: 50% 12% !important;
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/11/07/tunggu-aku-di-bkt-4.jpeg?w=1080");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/02/20/wajah-abstrak-pekerja-metropolitan-1740034131988.jpeg?w=1080");
   @media screen and (max-width: 768px) {
     background-position: 45% 50% !important;
   }
 }
 .section-img-inner.samp7 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2024/11/07/tunggu-aku-di-bkt-2.jpeg?w=1080");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/02/20/wajah-abstrak-pekerja-metropolitan-1740034132048.jpeg?w=1080");
   height: 120vh;
   @media screen and (max-width: 768px) {
     background-position: 0% 0 !important;
