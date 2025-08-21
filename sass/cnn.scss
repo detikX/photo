@@ -3,6 +3,7 @@
 main,
 body {
     font-family: "Karla", sans-serif;
+    background: #1b1b1b;
     font-weight: 400;
     box-sizing: border-box;
     overflow-x: clip;
@@ -190,6 +191,7 @@ section {
 .author {
     min-height: auto;
     text-align: center;
+    padding: 72px 0;
 
     .allx {
         margin-bottom: 8px;
