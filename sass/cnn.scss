@@ -3,7 +3,7 @@
 main,
 body {
     font-family: "Karla", sans-serif;
-    background: #1b1b1b;
+    // background: #1b1b1b;
     font-weight: 400;
     box-sizing: border-box;
     overflow-x: clip;
@@ -13,9 +13,9 @@ body {
 section {
     position: relative;
     z-index: 8;
-    background: #1b1b1b;
+    color: #1b1b1b;
     padding: 42px 0;
-    color: white;
+    background: white;
     min-height: 100vh;
     h3 {
         font-family: 'Karla' !important;
@@ -68,7 +68,7 @@ section {
     h2 {
         font-family: 'Jost';
         font-weight: 800;
-        color: white;
+        color: #1a1a1a;
         font-size: 2.4rem;
 
         @media screen and (max-width:768px) {
@@ -77,8 +77,13 @@ section {
     }
 
     .credit-photo {
-        color: white;
+        // color: white;
+        color: #1a1a1a;
         font-size: 1rem;
+        // text-shadow: 2px 2px black;
+        // background: #1a1a1a;
+        // width: fit-content;
+        // border-radius: 16px;
         @media screen and (max-width:768px) {
             font-size: .8rem;
         }
@@ -89,7 +94,8 @@ section {
             margin: 0 auto;
             padding: 2px 16px;
             font-size: 1.2rem;
-            color: #fff;
+            // color: #fff;
+            color: #1a1a1a;
             @media screen and (max-width:768px) {
                 font-size: 1rem;
             }
@@ -168,6 +174,7 @@ section {
 
         &::before {
             font: normal normal normal 4rem/1 FontAwesome;
+            color: #1b1b1b !important;
 
             @media screen and (max-width:768px) {
                 font: normal normal normal 2rem/1 FontAwesome;
@@ -179,6 +186,29 @@ section {
 
 .gallery {
     padding: 0;
+
+    .caption {
+        position: absolute;
+        left: 75%;
+        top: 80%;
+        translate: -50% -50%;
+        width: 40%;
+        background: rgba($color: white, $alpha: .3);
+        padding: 16px;
+        @media screen and (max-width:768px) {
+            width: 90%;
+            left: 50%;
+            top: 90%;
+            background: transparent;
+            padding: 0;
+        }
+        p {
+            font-size: 1.2rem;
+            @media screen and (max-width:768px) {
+                font-size: 1rem;
+            }
+        }
+    }
 
     .sliderx {
         width: 100%;
@@ -203,7 +233,7 @@ section {
             object-fit: cover;
             @media screen and (max-width:768px) {
                 object-fit: contain;
-                // scale: 1.25;
+                scale: 1.4;
             }
         }
     }
