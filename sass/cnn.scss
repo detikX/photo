@@ -24,7 +24,7 @@ section {
     p {
         font-size: 1.3rem;
         @media screen and (max-width:768px) {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
         }
     }
 }
@@ -169,7 +169,7 @@ section {
         z-index: 9;
         @media screen and (max-width:768px) {
             
-            top: 70%;
+            top: 73%;
         }
 
         &::before {
@@ -204,8 +204,10 @@ section {
         }
         p {
             font-size: 1.2rem;
+            text-align: right;
             @media screen and (max-width:768px) {
                 font-size: 1rem;
+                text-align: center;
             }
         }
     }
@@ -267,7 +269,7 @@ section {
 .articlex {
     .color-gold {
         // color: #da6918;
-        color: #bbb;
+        color: #1b1b1b;
         font-size: 2.2rem;
     }
 
@@ -339,7 +341,8 @@ section {
         position: absolute;
         left: 50%;
         top: 54px;
-        color: #fff;
+        // color: #fff;
+        color: #1b1b1b;
         font-size: 12px;
         transform: translate(-50%, 50%);
         text-align: center;
@@ -350,7 +353,8 @@ section {
     position: absolute;
     left: 50%;
     font-size: 2rem;
-    color: white;
+    // color: white;
+    color: #1b1b1b;
     top: 32px;
     animation: rotate 1.5s ease-in-out infinite alternate;
 }
@@ -474,6 +478,6 @@ section {
     top: 90%;
     translate: -50% -50%;
     @media screen and (max-width:739px) {
-        top: 71%;
+        top: 74%;
     }
 }
