@@ -4,6 +4,14 @@ $(document).ready(function(){
      AOS.init();
 
 
+     $(window).scroll(function () {
+          $(".banner .image").css('opacity', 5 - $(window).scrollTop() / 100);
+          // $(".banner .image").css('zoom',1 + $(window).scrollTop () / 150);
+          $(".banner .title").css({ 'top': 80 - $(window).scrollTop() / 100 + '%', 'opacity': 5 - $(window).scrollTop() / 100 });
+
+      });
+
+
 })
 
 
