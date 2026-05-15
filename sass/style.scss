@@ -166,8 +166,11 @@ body {
 .help-width {
   margin: 0 auto;
   width: 720px;
+  p {
+    font-size: 1.3rem;
+  }
   @media screen and (max-width: 768px) {
-    width: auto;
+    width: 90% !important;
   }
 }
 .helpx {
@@ -247,17 +250,17 @@ body {
 .pertama {
   min-height: 350vh;
 
-  @media screen and (max-width: 766px) {
+  @media screen and (max-width: 768px) {
     // margin-top: 30vh;
-    min-height: 350vh;
+    min-height: 700vh;
   }
   @media screen and (min-device-width: 700px) and (max-device-width: 799px) {
-    min-height: 350vh;
+    min-height: 430vh;
     // margin-top: 50vh;
   }
 
-  @media screen and (min-device-width: 800px) and (max-device-width: 900px) {
-    min-height: 350vh;
+  @media screen and (min-device-width: 800px) and (max-device-width: 920px) {
+    min-height: 600vh;
     // background: yellow;
     // top: 100px;
   }
@@ -283,13 +286,13 @@ body {
     background-position 0.8s ease;
 }
 .section-img-inner.samp1 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/02/28/tirai-toleransi-di-bulan-suci-1772230785474.jpeg?w=3100");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/05/09/kisah-perempuan-pekerja-ibu-kota-1778290242224.jpeg?w=3100");
   @media screen and (max-width: 768px) {
-    background-position: 70% 50% !important;
+    background-position: 50% 50% !important;
   }
 }
 .section-img-inner.samp2new {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/02/28/tirai-toleransi-di-bulan-suci-1772230785549.jpeg?w=3000");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/05/09/kisah-perempuan-pekerja-ibu-kota-1778290242299.jpeg?w=3000");
   background-position: 88% 15% !important;
   @media screen and (max-width: 768px) {
     background-position: 50% 15% !important;
@@ -297,17 +300,17 @@ body {
 }
 
 .section-img-inner.samp2 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/02/28/tirai-toleransi-di-bulan-suci-1772230785549.jpeg?w=3000");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/05/09/kisah-perempuan-pekerja-ibu-kota-1778290242352.jpeg?w=3000");
   background-position: 88% 15% !important;
   @media screen and (max-width: 768px) {
-    background-position: 70% 15% !important;
+    background-position: 50% 15% !important;
   }
 }
 .section-img-inner.samp3 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/02/28/tirai-toleransi-di-bulan-suci-1772230785602.jpeg?w=3000");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/05/09/kisah-perempuan-pekerja-ibu-kota-1778290242538.jpeg?w=3000");
   background-position: 50% 15% !important;
   @media screen and (max-width: 768px) {
-    background-position: 55% 30% !important;
+    background-position: 50% 30% !important;
   }
 }
 .section-img-inner.samp33 {
@@ -317,47 +320,47 @@ body {
   background-position: 50% 0 !important;
 }
 .section-img-inner.samp4 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/02/28/tirai-toleransi-di-bulan-suci-1772230785659.jpeg?w=3000");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/05/09/kisah-perempuan-pekerja-ibu-kota-1778290242591.jpeg?w=3000");
   background-position: 50% 50% !important;
   @media screen and (max-width: 768px) {
-    background-position: 50% 0% !important;
+    background-position: 32% 0% !important;
   }
 }
 .section-img-inner.samp5 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/02/28/tirai-toleransi-di-bulan-suci-1772230785715.jpeg?w=3000");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/05/09/kisah-perempuan-pekerja-ibu-kota-1778290242640.jpeg?w=3000");
   @media screen and (max-width: 768px) {
-    background-position: 16% 50% !important;
+    background-position: 65% 50% !important;
   }
 }
 // https://akcdn.detik.net.id/community/media/visual/2024/11/07/tunggu-aku-di-bkt-5.jpeg?w=2500
 .section-img-inner.samp6 {
   background-position: 50% 12% !important;
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/02/28/tirai-toleransi-di-bulan-suci-1772230785771.jpeg?w=3000");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/05/09/kisah-perempuan-pekerja-ibu-kota-1778290242691.jpeg?w=3000");
   @media screen and (max-width: 768px) {
-    background-position: 75% 50% !important;
+    background-position: 56% 50% !important;
   }
 }
 .section-img-inner.samp7 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/02/28/tirai-toleransi-di-bulan-suci-1772230785878.jpeg?w=3000");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/05/09/kisah-perempuan-pekerja-ibu-kota-1778290242741.jpeg?w=3000");
   height: 120vh;
   @media screen and (max-width: 768px) {
-    background-position: 20% 0 !important;
+    background-position: 70% 0 !important;
     height: 100vh;
   }
 }
 
 .section-img-inner.samp7add {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/02/28/tirai-toleransi-di-bulan-suci-1772230785826.jpeg?w=3000");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/05/09/kisah-perempuan-pekerja-ibu-kota-1778290242817.jpeg?w=3000");
   height: 120vh;
   @media screen and (max-width: 768px) {
-    background-position: 50% 0 !important;
+    background-position: 40% 0 !important;
     height: 100vh;
   }
 }
 
 
 .section-img-inner.samp8 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/02/28/tirai-toleransi-di-bulan-suci-1772230785933.jpeg?w=3000");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/05/09/kisah-perempuan-pekerja-ibu-kota-1778290242872.jpeg?w=3000");
   @media screen and (max-width: 768px) {
     background-position: 40% 0 !important;
   }
@@ -369,66 +372,69 @@ body {
 //   }
 // }ˀˀˀ
 .section-img-inner.samp9 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/02/28/tirai-toleransi-di-bulan-suci-1772230785933.jpeg?w=3000");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/05/09/kisah-perempuan-pekerja-ibu-kota-1778290509076.jpeg?w=3000");
   @media screen and (max-width: 768px) {
-    background-position: 70% 0 !important;
+    background-position: 56% 0 !important;
   }
 }
 .section-img-inner.samp10 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/02/28/tirai-toleransi-di-bulan-suci-1772230785988.jpeg?w=2500");
-  @media screen and (max-width: 768px) {
-    background-position: 88% 0 !important;
-  }
-}
-.section-img-inner.samp11 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/02/07/menghidupkan-dongeng-bawah-air-1770459701769.jpeg?w=2500");
-  @media screen and (max-width: 768px) {
-    background-position: 16% 0 !important;
-  }
-}
-.section-img-inner.samp12 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/12/27/jejak-konservasi-mind-id-merawat-keanekaragaman-hayati-1766801025270.jpeg?w=2500");
-  @media screen and (max-width: 768px) {
-    background-position: 50% 0;
-  }
-}
-
-.section-img-inner.samp13 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/12/27/jejak-konservasi-mind-id-merawat-keanekaragaman-hayati-1766801025321.jpeg?w=2500");
-}
-.section-img-inner.samp14 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/12/27/jejak-konservasi-mind-id-merawat-keanekaragaman-hayati-1766801025375.jpeg?w=2500");
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/05/09/kisah-perempuan-pekerja-ibu-kota-1778290509151.jpeg?w=2500");
   @media screen and (max-width: 768px) {
     background-position: 75% 0 !important;
   }
 }
-.section-img-inner.samp15 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/12/27/jejak-konservasi-mind-id-merawat-keanekaragaman-hayati-1766801025433.jpeg?w=2500");
+.section-img-inner.samp11 {
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/05/09/kisah-perempuan-pekerja-ibu-kota-1778290509204.jpeg?w=2500");
   @media screen and (max-width: 768px) {
-    background-position: 50% 0;
+    background-position: 40% 0 !important;
+  }
+}
+.section-img-inner.samp12 {
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/05/09/kisah-perempuan-pekerja-ibu-kota-1778290509274.png?w=2500");
+  @media screen and (max-width: 768px) {
+    background-position: 70% 0 !important;
   }
 }
 
-.section-img-inner.samp151 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/12/29/jejak-konservasi-mind-id-merawat-keanekaragaman-hayati-1767000802948.jpeg?w=2500");
-  @media screen and (max-width: 768px) {
-    background-position: 80% 0 !important;
+.section-img-inner.samp13 {
+  background-image: url("https://akcdn.detik.net.id/community/media/visual/2026/05/09/kisah-perempuan-pekerja-ibu-kota-1778290509454.jpeg?w=2500");
+  @media screen and (max-width:768px) {
+    background-position: 40% 0 !important;
   }
 }
+// .section-img-inner.samp14 {
+//   background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/12/27/jejak-konservasi-mind-id-merawat-keanekaragaman-hayati-1766801025375.jpeg?w=2500");
+//   @media screen and (max-width: 768px) {
+//     background-position: 75% 0 !important;
+//   }
+// }
+// .section-img-inner.samp15 {
+//   background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/12/27/jejak-konservasi-mind-id-merawat-keanekaragaman-hayati-1766801025433.jpeg?w=2500");
+//   @media screen and (max-width: 768px) {
+//     background-position: 50% 0;
+//   }
+// }
 
-.section-img-inner.samp152 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/12/29/jejak-konservasi-mind-id-merawat-keanekaragaman-hayati-1767000212101.jpeg?w=2500");
-  @media screen and (max-width: 768px) {
-    background-position: 80% 0 !important;
-  }
-}
+// .section-img-inner.samp151 {
+//   background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/12/29/jejak-konservasi-mind-id-merawat-keanekaragaman-hayati-1767000802948.jpeg?w=2500");
+//   @media screen and (max-width: 768px) {
+//     background-position: 80% 0 !important;
+//   }
+// }
 
-.section-img-inner.samp101 {
-  background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/12/29/jejak-konservasi-mind-id-merawat-keanekaragaman-hayati-1767000212045.jpeg?w=2500");
-  @media screen and (max-width: 768px) {
-    background-position: 41% 0 !important;
-  }
-}
+// .section-img-inner.samp152 {
+//   background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/12/29/jejak-konservasi-mind-id-merawat-keanekaragaman-hayati-1767000212101.jpeg?w=2500");
+//   @media screen and (max-width: 768px) {
+//     background-position: 80% 0 !important;
+//   }
+// }
+
+// .section-img-inner.samp101 {
+//   background-image: url("https://akcdn.detik.net.id/community/media/visual/2025/12/29/jejak-konservasi-mind-id-merawat-keanekaragaman-hayati-1767000212045.jpeg?w=2500");
+//   @media screen and (max-width: 768px) {
+//     background-position: 41% 0 !important;
+//   }
+// }
 
 // https://akcdn.detik.net.id/community/media/visual/2025/07/24/mencari-peluang-di-tengah-ketimpangan-perjuangan-raihan-menembus-dunia-kerja-sebagai-difabel-1753337329497.jpeg
 
@@ -943,7 +949,7 @@ body {
     font-size: 2.4rem;
     font-family: "Jost";
     color: #fcfcfc;
-    line-height: 2.6rem;
+    // line-height: 2.6rem;
     text-shadow: 4px 4px 4px #252525;
     @media screen and (min-width: 1440px) {
       font-size: 45px;
